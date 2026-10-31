@@ -29,7 +29,8 @@ for c in elenco.get("categorie", []):
     i = c["id"]
     upsert(d["categorie"], {"nome": c["nome"], "id": i, "icona": c.get("icona", "\U0001F4E6"),
         "descrizione": c["descrizione"], "immagine": f"assets/images/categorie/{i}.webp",
-        "tr": {"en": {"nome": c["nome_en"], "descrizione": c["descrizione_en"]}}})
+        "tr": {"en": {"nome": c["nome_en"], "descrizione": c["descrizione_en"]}},
+        **({"genitore": c["genitore"]} if c.get("genitore") else {})})
     foto(c.get("foto", c["nome_en"]), i, "categoria", "assets/images/categorie")
     se = c["slug_en"]
     w(f"_negozio/categoria-{i}.md", f'---\nlayout: negozio-categoria\ntitle: "{c["nome"]}"\ncid: {i}\npermalink: /negozio/categoria/{i}/\ndescription: "{c["descrizione"]}"\nref: shop-cat-{i}\n---\n')

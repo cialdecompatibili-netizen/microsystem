@@ -25,7 +25,8 @@
           "nome": "Meshtastic Nodes & Boards",
           "descrizione": "Portable LoRa nodes and ESP32 boards with Meshtastic firmware pre-installed, ready for your mesh network."
         }
-      }
+      },
+      "genitore": "mesh-lora"
     },
     {
       "nome": "Tracker GPS LoRa",
@@ -38,7 +39,8 @@
           "nome": "LoRa GPS Trackers",
           "descrizione": "Compact GPS trackers on LoRa networks, with no SIM and no subscription, for vehicles, animals and equipment."
         }
-      }
+      },
+      "genitore": "mesh-lora"
     },
     {
       "nome": "Kit modulari e Raspberry Pi",
@@ -51,7 +53,8 @@
           "nome": "Modular Kits & Raspberry Pi",
           "descrizione": "Modular kits and Raspberry Pi bases for building custom LoRa gateways and nodes."
         }
-      }
+      },
+      "genitore": "mesh-lora"
     }
   ],
   "prodotti": [
@@ -185,6 +188,25 @@
           "nome": "Compact Meshtastic repeater, Stealth",
           "descrizione": "Small LoRa mesh repeater in anti-glare matte black, upgraded antenna mounted inside, USB-C powered.",
           "descrizione_completa": "Compact, discreet mesh repeater: anti-glare matte black body and no protruding parts. Meshtastic firmware pre-configured as a repeater.\nThe antenna is an upgraded model mounted inside the case: not the usual standard internal antenna and not designed to reduce range compared with an external one.\nPowered over USB-C (power adapter or power bank), designed for indoor or sheltered installations. Outdoors it needs extra protection. European 868 MHz band. Real-world range depends on height and obstacles."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-nodo-modulare",
+      "nome": "Kit nodo LoRa modulare da assemblare",
+      "categoria": "kit-modulari",
+      "prezzo_centesimi": 6900,
+      "descrizione": "Kit modulare per costruire un nodo LoRa: base, modulo radio e antenna. Si assembla senza saldature.",
+      "descrizione_completa": "Kit modulare per costruire un nodo LoRa su misura: scheda base, modulo radio LoRa, antenna e cavi di collegamento.\nSi assembla ad incastro, senza saldature, e si puo' ampliare con altri moduli.\nFirmware Meshtastic installabile dall'app o dal computer, istruzioni di montaggio in italiano. Banda europea 868 MHz.\nLa portata reale dipende da altezza e ostacoli.",
+      "immagine": "assets/images/prodotti/kit-nodo-modulare.webp",
+      "icona": "🧩",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Modular LoRa node kit, DIY assembly",
+          "descrizione": "Modular kit for building a LoRa node: base board, radio module and antenna. Assembles with no soldering.",
+          "descrizione_completa": "Modular kit for building a custom LoRa node: base board, LoRa radio module, antenna and connecting cables.\nSnaps together with no soldering and can be expanded with more modules.\nMeshtastic firmware can be installed from the app or a computer, assembly instructions included. European 868 MHz band.\nReal-world range depends on height and obstacles."
         }
       }
     }
