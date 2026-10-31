@@ -68,6 +68,45 @@
           "descrizione": "Pole-mount 4G/5G antenna kits, ready to install: directional panel or omnidirectional, with cables and brackets."
         }
       }
+    },
+    {
+      "nome": "Dashcam e sicurezza auto",
+      "id": "dashcam",
+      "icona": "🚗",
+      "descrizione": "Dashcam fronte e retro, kit per il parcheggio e modelli per chi lavora in auto, con scheda e istruzioni in italiano.",
+      "immagine": "assets/images/categorie/dashcam.webp",
+      "tr": {
+        "en": {
+          "nome": "Dashcams and car security",
+          "descrizione": "Front and rear dashcams, parking kits and models for people who work in their car, with card and instructions."
+        }
+      }
+    },
+    {
+      "nome": "Telecamere 4G senza WiFi",
+      "id": "telecamere-4g",
+      "icona": "📹",
+      "descrizione": "Telecamere con SIM 4G e pannello solare per case di campagna, cantieri, barche e uliveti dove non c'è WiFi.",
+      "immagine": "assets/images/categorie/telecamere-4g.webp",
+      "tr": {
+        "en": {
+          "nome": "4G cameras without WiFi",
+          "descrizione": "Cameras with a 4G SIM and solar panel for country houses, building sites, boats and groves with no WiFi."
+        }
+      }
+    },
+    {
+      "nome": "Tracker 4G e Bluetooth per animali e mezzi",
+      "id": "tracker-4g-bt",
+      "icona": "🐾",
+      "descrizione": "Tracker per cani, gatti, auto e furgoni: 4G per la posizione ovunque c'è rete, Bluetooth per chiavi e collari.",
+      "immagine": "assets/images/categorie/tracker-4g-bt.webp",
+      "tr": {
+        "en": {
+          "nome": "4G and Bluetooth trackers for pets and vehicles",
+          "descrizione": "Trackers for dogs, cats, cars and vans: 4G for position wherever there is a network, Bluetooth for keys and collars."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -277,6 +316,158 @@
           "nome": "4G/5G omnidirectional antenna kit, pole mount",
           "descrizione": "Kit with an omnidirectional 4G/5G antenna, cable and pole bracket. No aiming needed: suited when towers are in several directions.",
           "descrizione_completa": "Ready-to-install kit: omnidirectional antenna for 4G/5G networks, pre-terminated coaxial cable and a pole bracket.\nNo aiming required. If the tower is far away or in one specific direction, a directional panel usually performs better.\nCheck your router's connectors before buying.\nInstallation instructions in Italian included. Results depend on position, height and distance from the tower."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "dashcam-4k-fronte-retro",
+      "nome": "Dashcam 4K fronte e retro con scheda",
+      "categoria": "dashcam",
+      "prezzo_centesimi": 11900,
+      "descrizione": "Dashcam con telecamera anteriore e posteriore, scheda di memoria inclusa e istruzioni di installazione in italiano.",
+      "descrizione_completa": "Dashcam con due telecamere, una davanti e una dietro, per avere la prova di ciò che succede intorno all'auto.\nInclude scheda di memoria per uso intensivo e istruzioni di montaggio in italiano: la scheda che si rompe dopo pochi mesi è uno dei problemi più citati dagli acquirenti, per questo non la lasciamo fuori.\nLa dashcam è per uso personale. La diffusione dei video e le riprese di terzi hanno limiti di privacy.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/dashcam-4k-fronte-retro.webp",
+      "icona": "📷",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4K front and rear dashcam with card",
+          "descrizione": "Dashcam with front and rear cameras, memory card included and installation instructions.",
+          "descrizione_completa": "Dashcam with two cameras, one in front and one at the back, to have proof of what happens around the car.\nIncludes a high-endurance memory card and installation instructions: a card that fails after a few months is among the most common complaints from buyers, so we do not leave it out.\nThe dashcam is for personal use. Sharing videos and recording third parties has privacy limits.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-dashcam-parcheggio",
+      "nome": "Kit dashcam con cablaggio parcheggio e scheda",
+      "categoria": "dashcam",
+      "prezzo_centesimi": 14900,
+      "descrizione": "Dashcam fronte e retro con cablaggio per la sorveglianza a veicolo fermo e scheda per uso intensivo.",
+      "descrizione_completa": "Kit completo per tenere d'occhio l'auto anche quando è parcheggiata: dashcam fronte e retro, cablaggio da collegare alla batteria e scheda per uso intensivo.\nIl valore è nel kit: tutto ciò che serve è nella scatola, con istruzioni in italiano, senza dover cercare i pezzi giusti.\nIl collegamento alla batteria va fatto con attenzione: se non sei pratico, fallo montare da un elettrauto.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/kit-dashcam-parcheggio.webp",
+      "icona": "📷",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Dashcam kit with parking wiring and card",
+          "descrizione": "Front and rear dashcam with wiring for parking surveillance and a high-endurance card.",
+          "descrizione_completa": "Complete kit to keep an eye on the car even when parked: front and rear dashcam, wiring to connect to the battery and a high-endurance card.\nThe value is in the kit: everything you need is in the box, with instructions, so you do not have to hunt for the right parts.\nConnecting to the battery needs care: if you are not confident, have an auto electrician fit it.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "dashcam-3-canali",
+      "nome": "Dashcam a 3 canali: fronte, retro e abitacolo",
+      "categoria": "dashcam",
+      "prezzo_centesimi": 13900,
+      "descrizione": "Tre telecamere per chi lavora in auto: strada davanti, dietro e interno dell'abitacolo.",
+      "descrizione_completa": "Pensata per NCC, taxi e chi trasporta persone: registra la strada davanti, quella dietro e l'interno dell'auto.\nLa ripresa dell'abitacolo richiede di informare i passeggeri e di rispettare le regole sulla privacy.\nInclude scheda di memoria e istruzioni di montaggio in italiano.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/dashcam-3-canali.webp",
+      "icona": "📷",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "3-channel dashcam: front, rear and cabin",
+          "descrizione": "Three cameras for people who work in their car: road ahead, behind and the cabin.",
+          "descrizione_completa": "Designed for taxi and ride-share drivers and anyone carrying passengers: it records the road ahead, behind and the inside of the car.\nRecording the cabin means informing passengers and following privacy rules.\nIncludes a memory card and installation instructions.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "telecamera-4g-solare",
+      "nome": "Telecamera 4G con pannello solare",
+      "categoria": "telecamere-4g",
+      "prezzo_centesimi": 14900,
+      "descrizione": "Telecamera con SIM 4G e pannello solare, per posti senza WiFi né corrente: campagna, cantiere, barca.",
+      "descrizione_completa": "Telecamera da esterno che funziona dove non arriva il WiFi: usa una SIM 4G per inviare le immagini al telefono e un pannello solare per la corrente.\nLa SIM e il traffico dati non sono inclusi e vanno attivati a parte: controlla il costo del piano prima di montarla.\nSe il segnale è debole, abbinala a un'antenna esterna: trovi il kit nella stessa categoria.\nSe inquadra strade, vicini o persone, rispetta le regole sulla privacy.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/telecamera-4g-solare.webp",
+      "icona": "📷",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4G camera with solar panel",
+          "descrizione": "Camera with 4G SIM and solar panel for places without WiFi or mains power: countryside, building site, boat.",
+          "descrizione_completa": "Outdoor camera that works where WiFi does not reach: it uses a 4G SIM to send images to your phone and a solar panel for power.\nThe SIM and data plan are not included and must be activated separately: check the plan cost before installing.\nWith weak signal, pair it with an external antenna: the kit is in the same category.\nIf it covers streets, neighbours or people, follow the privacy rules.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-telecamera-4g-antenna-palo",
+      "nome": "Kit telecamera 4G solare con antenna e palo",
+      "categoria": "telecamere-4g",
+      "prezzo_centesimi": 19900,
+      "descrizione": "Telecamera 4G solare, antenna esterna, cavo e staffa per palo: il kit per zone con segnale debole.",
+      "descrizione_completa": "Il kit per chi ha una casa, un cantiere o un terreno dove il segnale è debole: telecamera 4G con pannello solare, antenna esterna, cavo e staffa per montare tutto su un palo.\nÈ il nostro modo di unire le due cose che di solito si comprano separate e non sempre vanno d'accordo.\nSIM e traffico dati non inclusi. I risultati dipendono da posizione, altezza e distanza dal ripetitore.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/kit-telecamera-4g-antenna-palo.webp",
+      "icona": "📷",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Solar 4G camera kit with antenna and pole",
+          "descrizione": "Solar 4G camera, external antenna, cable and pole bracket: the kit for weak signal areas.",
+          "descrizione_completa": "The kit for anyone with a house, building site or land where signal is weak: a 4G camera with solar panel, external antenna, cable and bracket to mount everything on a pole.\nIt is our way of combining two things that are usually bought separately and do not always match.\nSIM and data plan not included. Results depend on position, height and distance from the tower.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tracker-4g-mezzi",
+      "nome": "Tracker 4G per auto, furgoni e rimorchi",
+      "categoria": "tracker-4g-bt",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Tracker 4G con posizione in tempo reale per auto, furgoni e rimorchi, con app sul telefono.",
+      "descrizione_completa": "Piccolo tracker da nascondere o fissare a un'auto, un furgone o un rimorchio: invia la posizione al telefono tramite rete 4G.\nServe una SIM dati con piano a parte, non inclusa. Molti servizi di questo tipo richiedono anche un abbonamento: controlla il costo totale prima di acquistare.\nUsalo solo su mezzi di tua proprietà o con il consenso di chi li usa.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/tracker-4g-mezzi.webp",
+      "icona": "🚘",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4G tracker for cars, vans and trailers",
+          "descrizione": "4G tracker with real-time position for cars, vans and trailers, with a phone app.",
+          "descrizione_completa": "A small tracker to hide or fix on a car, van or trailer: it sends its position to your phone over the 4G network.\nA data SIM with a separate plan is required and not included. Many services of this kind also need a subscription: check the total cost before buying.\nUse it only on vehicles you own or with the consent of whoever uses them.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tracker-4g-animali",
+      "nome": "Tracker 4G per cani e gatti con collare",
+      "categoria": "tracker-4g-bt",
+      "prezzo_centesimi": 6900,
+      "descrizione": "Tracker 4G leggero con collare, per sapere dove si trova il tuo cane o gatto con l'app sul telefono.",
+      "descrizione_completa": "Tracker leggero da agganciare al collare per vedere sul telefono dove si trova il tuo animale, anche lontano da casa.\nServe una SIM dati con piano a parte, non inclusa: molti tracker per animali funzionano con abbonamento, quindi guarda il costo totale.\nControlla che il peso e la misura siano adatti al tuo animale: per un gatto piccolo serve un modello molto leggero.\nNon sostituisce la sorveglianza: mai lasciare un animale in auto al caldo.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/tracker-4g-animali.webp",
+      "icona": "🐕",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4G tracker for dogs and cats with collar",
+          "descrizione": "Lightweight 4G tracker with collar, to know where your dog or cat is with the phone app.",
+          "descrizione_completa": "A lightweight tracker to clip onto the collar to see on your phone where your pet is, even far from home.\nA data SIM with a separate plan is required and not included: many pet trackers work on subscription, so look at the total cost.\nCheck that the weight and size suit your pet: a small cat needs a very light model.\nIt does not replace supervision: never leave a pet in a hot car.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-collare-tag-qr",
+      "nome": "Kit collare con supporto per tag Bluetooth e targhetta",
+      "categoria": "tracker-4g-bt",
+      "prezzo_centesimi": 2490,
+      "descrizione": "Collare con supporto protettivo per tag Bluetooth e targhetta con i tuoi recapiti, senza abbonamenti.",
+      "descrizione_completa": "Soluzione semplice e senza abbonamenti: collare con supporto impermeabile in cui inserire un tag Bluetooth (non incluso) e targhetta con i tuoi recapiti.\nIl tag Bluetooth funziona solo se un telefono compatibile è vicino, quindi è utile per un cane o un gatto che si allontana poco, non in aperta campagna.\nVerifica che il tag che possiedi sia compatibile con il supporto.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/kit-collare-tag-qr.webp",
+      "icona": "🐾",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Collar kit with Bluetooth tag holder and ID tag",
+          "descrizione": "Collar with a protective holder for a Bluetooth tag and an ID tag, no subscriptions.",
+          "descrizione_completa": "A simple solution with no subscriptions: a collar with a waterproof holder for a Bluetooth tag (not included) and an ID tag with your contact details.\nA Bluetooth tag only works when a compatible phone is nearby, so it suits a dog or cat that does not wander far, not open countryside.\nCheck that the tag you own fits the holder.\nFinal specifications and contents to be confirmed before sale."
         }
       }
     }
