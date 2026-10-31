@@ -20,10 +20,10 @@ def upsert(lst, item):
         if x["id"] == item["id"]: lst[i] = item; return
     lst.append(item)
 
-def foto(soggetto, nome, profilo, out):
+def foto(soggetto, nome, profilo, out, extra=None):
     if "--foto" not in sys.argv: return
     subprocess.run(["python", IMG, soggetto, "--profilo", profilo, "--nome", nome, "--out", os.path.join(R, out),
-                    "--extra", "No text, no logos, no brand names anywhere on the device."], check=True)
+                    "--extra", extra or "No text, no logos, no brand names anywhere on the device."], check=True)
 
 for c in elenco.get("categorie", []):
     i = c["id"]
@@ -42,7 +42,7 @@ for p in elenco.get("prodotti", []):
         "descrizione_completa": p["completa"], "immagine": f"assets/images/prodotti/{i}.webp",
         "icona": ic, "visibile": True,
         "tr": {"en": {"nome": p["nome_en"], "descrizione": p["descrizione_en"], "descrizione_completa": p["completa_en"]}}})
-    foto(p.get("foto", p["nome_en"]), i, "prodotto", "assets/images/prodotti")
+    foto(p.get("foto", p["nome_en"]), i, "prodotto", "assets/images/prodotti", p.get("extra"))
     se = p["slug_en"]
     w(f"_negozio/{i}.md", f'---\nlayout: negozio-prodotto\ntitle: "{p["nome"]}"\npid: {i}\npermalink: /negozio/{i}/\ndescription: "{p["descrizione"][:150]}"\nref: shop-prod-{i}\n---\n')
     w(f"en/negozio/{i}.md", f'---\nlayout: negozio-prodotto\ntitle: "{p["nome_en"]}"\npid: {i}\npermalink: /en/shop/{se}/\ndescription: "{p["descrizione_en"][:150]}"\nlang: en\nlocale: en\nref: shop-prod-{i}\n---\n')

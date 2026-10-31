@@ -130,6 +130,63 @@
           "descrizione_completa": "Kit for building a LoRa gateway on a Raspberry Pi base, with radio module and antenna.\nBuilt for anyone who wants an always-on fixed station. Assembly instructions included.\nEuropean 868 MHz band."
         }
       }
+    },
+    {
+      "tipo": "fisico",
+      "id": "nodo-meshtastic-stealth",
+      "nome": "Nodo Meshtastic Stealth, antenna interna",
+      "categoria": "nodi-meshtastic",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Nodo LoRa compatto, nero opaco antiriflesso, con antenna maggiorata montata all'interno. Si configura da smartphone.",
+      "descrizione_completa": "Nodo LoRa piccolo e discreto: scocca nera con verniciatura opaca antiriflesso e nessuna parte sporgente.\nL'antenna e' una versione maggiorata, scelta per questo lavoro e montata all'interno della scocca: non e' la solita antenna interna standard e non e' pensata per penalizzare la portata rispetto a un'antenna esterna.\nSenza display, si configura e si usa dall'app Meshtastic dello smartphone via Bluetooth. Firmware Meshtastic gia' installato. Banda europea 868 MHz. La portata reale dipende da altezza e ostacoli.\nDa usare su beni propri o con il consenso dei proprietari.",
+      "immagine": "assets/images/prodotti/nodo-meshtastic-stealth.webp",
+      "icona": "📟",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Meshtastic Stealth node, internal antenna",
+          "descrizione": "Compact LoRa node in anti-glare matte black, with an upgraded antenna mounted inside. Configured from your smartphone.",
+          "descrizione_completa": "Small, discreet LoRa node: black body with an anti-glare matte finish and no protruding parts.\nThe antenna is an upgraded model chosen for this job and mounted inside the case: it is not the usual standard internal antenna and is not designed to cost you range compared with an external one.\nNo display: set up and use it from the Meshtastic smartphone app over Bluetooth. Meshtastic firmware pre-installed. European 868 MHz band. Real-world range depends on height and obstacles.\nFor use on your own property or with the owner's consent."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tracker-gps-lora-stealth",
+      "nome": "Tracker GPS LoRa Stealth compatto",
+      "categoria": "tracker-gps",
+      "prezzo_centesimi": 6900,
+      "descrizione": "Tracker GPS LoRa piccolo, nero opaco antiriflesso, con antenna LoRa maggiorata montata all'interno. Niente SIM, niente canone.",
+      "descrizione_completa": "Tracker GPS compatto per mezzi, attrezzature e rimorchi: scocca nera opaca antiriflesso e nessuna parte esterna visibile.\nL'antenna LoRa e' una versione maggiorata montata all'interno della scocca, non una normale antenna interna standard, per non penalizzare la portata. Antenna GPS interna.\nInvia la posizione tramite rete LoRa, senza SIM e senza canone. Funziona dove c'e' copertura di nodi mesh; la portata reale dipende da ostacoli e posizione. Banda europea 868 MHz.\nPensato per beni propri o con il consenso dei proprietari, non per sorvegliare persone.",
+      "immagine": "assets/images/prodotti/tracker-gps-lora-stealth.webp",
+      "icona": "📍",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Compact LoRa GPS tracker, Stealth",
+          "descrizione": "Small LoRa GPS tracker in anti-glare matte black, with an upgraded LoRa antenna mounted inside. No SIM, no fee.",
+          "descrizione_completa": "Compact GPS tracker for vehicles, equipment and trailers: anti-glare matte black body, nothing visible on the outside.\nThe LoRa antenna is an upgraded model mounted inside the case, not a normal standard internal antenna, so range is not given up. Internal GPS antenna.\nSends its position over a LoRa network, with no SIM and no fee. Works where mesh nodes provide coverage; real-world range depends on obstacles and placement. European 868 MHz band.\nIntended for your own property or with the owner's consent, not for monitoring people."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "ripetitore-meshtastic-stealth",
+      "nome": "Ripetitore Meshtastic Stealth compatto",
+      "categoria": "mesh-lora",
+      "prezzo_centesimi": 8900,
+      "descrizione": "Ripetitore mesh LoRa piccolo, nero opaco antiriflesso, antenna maggiorata montata all'interno, alimentato via USB-C.",
+      "descrizione_completa": "Ripetitore mesh compatto e discreto: scocca nera opaca antiriflesso e nessuna parte sporgente. Firmware Meshtastic gia' configurato come ripetitore.\nL'antenna e' una versione maggiorata montata all'interno della scocca: non e' la solita antenna interna standard e non e' pensata per ridurre la portata rispetto a una esterna.\nSi alimenta via USB-C (alimentatore o power bank) ed e' pensato per installazioni al coperto o riparate. Per l'esterno serve una protezione aggiuntiva. Banda europea 868 MHz. La portata reale dipende da altezza e ostacoli.",
+      "immagine": "assets/images/prodotti/ripetitore-meshtastic-stealth.webp",
+      "icona": "📡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Compact Meshtastic repeater, Stealth",
+          "descrizione": "Small LoRa mesh repeater in anti-glare matte black, upgraded antenna mounted inside, USB-C powered.",
+          "descrizione_completa": "Compact, discreet mesh repeater: anti-glare matte black body and no protruding parts. Meshtastic firmware pre-configured as a repeater.\nThe antenna is an upgraded model mounted inside the case: not the usual standard internal antenna and not designed to reduce range compared with an external one.\nPowered over USB-C (power adapter or power bank), designed for indoor or sheltered installations. Outdoors it needs extra protection. European 868 MHz band. Real-world range depends on height and obstacles."
+        }
+      }
     }
   ]
 }
