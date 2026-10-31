@@ -120,6 +120,19 @@
           "descrizione": "Sensors and modules for the smart home, designed for Home Assistant: presence, air quality, gates and Bluetooth, with instructions."
         }
       }
+    },
+    {
+      "nome": "Display e-paper intelligenti",
+      "id": "display-epaper",
+      "icona": "📟",
+      "descrizione": "Schermi e-paper che sembrano carta: calendario, meteo, note e promemoria sempre visibili, a bassissimo consumo e senza luce che disturba.",
+      "immagine": "assets/images/categorie/display-epaper.webp",
+      "tr": {
+        "en": {
+          "nome": "Smart e-paper displays",
+          "descrizione": "E-paper screens that look like paper: calendar, weather, notes and reminders always visible, ultra low power and no glare."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -576,6 +589,158 @@
           "nome": "WiFi gate and garage opener with dry contact",
           "descrizione": "Low-voltage module that acts like the remote button to open a gate or garage from your phone.",
           "descrizione_completa": "It connects to the button terminals or the 'open' input of your gate controller and does the same as a press: it opens or closes the gate from your phone, even when you are away.\nIt is a low-voltage dry contact: there is no need to connect to 230 V mains and it does not touch the gate's safety devices.\nESPHome firmware preloaded, shows up in Home Assistant. Instructions with a wiring diagram included.\nFor gate automation, get an installer's help if unsure: safety devices (photocells, safety edge) must stay active.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "calendario-epaper-parete",
+      "nome": "Calendario e agenda e-paper da parete",
+      "categoria": "display-epaper",
+      "prezzo_centesimi": 8900,
+      "descrizione": "Schermo e-paper da parete con data, calendario e impegni della famiglia: sempre acceso, senza luce e senza cavi per mesi.",
+      "descrizione_completa": "Un calendario che non devi accendere: si legge come carta, anche di giorno, e non affatica gli occhi.\nMostra data, ora, impegni della settimana e promemoria, aggiornandosi da solo in Wi-Fi.\nSchermo e-paper a bassissimo consumo: consuma solo quando cambia contenuto, quindi la batteria dura a lungo.\nSi collega a Home Assistant e ai calendari più usati; istruzioni di configurazione in italiano.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/calendario-epaper-parete.webp",
+      "icona": "📟",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Wall e-paper calendar and agenda",
+          "descrizione": "Wall e-paper screen with date, calendar and the family's appointments: always on, no glare, runs for months without cables.",
+          "descrizione_completa": "A calendar you never have to switch on: it reads like paper, even in daylight, and is easy on the eyes.\nShows date, time, the week's appointments and reminders, updating itself over WiFi.\nUltra low power e-paper: it only draws power when the content changes, so the battery lasts a long time.\nConnects to Home Assistant and the most common calendars; setup instructions included.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "stazione-meteo-epaper",
+      "nome": "Stazione meteo e-paper a batteria",
+      "categoria": "display-epaper",
+      "prezzo_centesimi": 6900,
+      "descrizione": "Display e-paper con meteo, previsioni a 5 giorni e temperatura di casa, a batteria e sempre leggibile.",
+      "descrizione_completa": "Meteo di oggi, previsioni dei prossimi giorni e temperatura della stanza su uno schermo che sembra un foglio stampato.\nA batteria ricaricabile via USB: lo appoggi in cucina o in ingresso, senza prese vicine.\nSi aggiorna da solo in Wi-Fi e si integra con Home Assistant.\nIstruzioni in italiano. Specifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/stazione-meteo-epaper.webp",
+      "icona": "🌦",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Battery e-paper weather station",
+          "descrizione": "E-paper display with weather, 5-day forecast and indoor temperature, battery powered and always readable.",
+          "descrizione_completa": "Today's weather, the next days' forecast and the room temperature on a screen that looks like printed paper.\nRechargeable battery via USB: put it in the kitchen or hallway, no outlet needed nearby.\nUpdates itself over WiFi and integrates with Home Assistant.\nInstructions included. Final specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pannello-epaper-note-timer",
+      "nome": "Pannello e-paper per scrivania con note e timer",
+      "categoria": "display-epaper",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Piccolo pannello e-paper da scrivania per appunti, lista cose da fare e timer pomodoro con manopola, senza distrazioni.",
+      "descrizione_completa": "Uno schermo che non ha notifiche: tiene davanti a te le tre cose da fare oggi e un timer per lavorare a blocchi.\nManopola per impostare lavoro e pausa, schermo e-paper sempre leggibile e a bassissimo consumo.\nLe note si inviano da telefono o da Home Assistant.\nPensato per chi lavora da casa e vuole meno distrazioni. Specifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/pannello-epaper-note-timer.webp",
+      "icona": "📝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Desk e-paper panel with notes and timer",
+          "descrizione": "Small desk e-paper panel for notes, to-do list and a pomodoro timer with a dial, without distractions.",
+          "descrizione_completa": "A screen with no notifications: it keeps your three tasks for today in front of you, plus a timer to work in blocks.\nDial to set work and break times, e-paper screen always readable and ultra low power.\nNotes are sent from your phone or from Home Assistant.\nMade for people working from home who want fewer distractions. Final specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cornice-epaper-foto",
+      "nome": "Cornice e-paper per foto e illustrazioni",
+      "categoria": "display-epaper",
+      "prezzo_centesimi": 9900,
+      "descrizione": "Cornice e-paper che cambia immagine ogni giorno: sembra una stampa, non fa luce e consuma pochissimo.",
+      "descrizione_completa": "Una cornice digitale che non sembra digitale: lo schermo e-paper ha l'aspetto opaco della carta, senza riflessi né bagliore la sera.\nCambia immagine ogni giorno (o quando vuoi) in Wi-Fi; tra un cambio e l'altro non consuma.\nUtile per foto di famiglia, illustrazioni o una citazione del giorno.\nLa resa dei colori dipende dal tipo di schermo scelto. Specifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/cornice-epaper-foto.webp",
+      "icona": "🖼",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "E-paper photo and artwork frame",
+          "descrizione": "E-paper frame that changes picture every day: it looks like a print, gives off no light and uses very little power.",
+          "descrizione_completa": "A digital frame that does not look digital: the e-paper screen has the matte look of paper, with no reflections or evening glare.\nChanges picture every day (or when you want) over WiFi; between changes it draws no power.\nGreat for family photos, illustrations or a daily quote.\nColour rendering depends on the screen type chosen. Final specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "targa-porta-epaper",
+      "nome": "Targa porta e-paper per sale riunioni e studi",
+      "categoria": "display-epaper",
+      "prezzo_centesimi": 7900,
+      "descrizione": "Targa da porta e-paper che mostra se la sala è libera o occupata e chi la usa, aggiornata da calendario.",
+      "descrizione_completa": "Per sale riunioni, studi e ambulatori: sulla porta si vede subito se la stanza è libera o occupata e il prossimo impegno.\nSi aggiorna dal calendario in Wi-Fi; schermo e-paper che consuma solo quando cambia, quindi la batteria dura mesi.\nSi attacca alla porta o al muro con biadesivo, senza cablaggi.\nPer l'uso in azienda confermiamo con te calendario e modalità di aggiornamento. Specifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/targa-porta-epaper.webp",
+      "icona": "🚪",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "E-paper door sign for meeting rooms and offices",
+          "descrizione": "E-paper door sign that shows whether the room is free or booked and who is using it, updated from the calendar.",
+          "descrizione_completa": "For meeting rooms, offices and clinics: the door shows at a glance whether the room is free or booked and the next appointment.\nUpdates from the calendar over WiFi; e-paper only draws power when it changes, so the battery lasts months.\nStick it to the door or wall with double-sided tape, no wiring.\nFor business use we confirm the calendar and update method with you. Final specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "lettore-ebook-epaper-touch",
+      "nome": "Lettore e-book e-paper touch con KOReader",
+      "categoria": "display-epaper",
+      "prezzo_centesimi": 11900,
+      "descrizione": "Lettore e-book con schermo e-paper touch che si legge come carta, con KOReader già installato per EPUB e PDF.",
+      "descrizione_completa": "Uno schermo che non stanca gli occhi e si legge anche al sole, con touch per girare pagina e ingrandire.\nKOReader già installato: legge EPUB, PDF e altri formati, con tipi e margini regolabili.\nSi carica via USB-C e la batteria dura a lungo perché lo schermo consuma solo quando cambia pagina.\nSi collega al Wi-Fi per trasferire i libri dal telefono o dal PC. Istruzioni in italiano.\nPensato per chi ha già i suoi libri e vuole un lettore aperto, senza negozio obbligato.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/lettore-ebook-epaper-touch.webp",
+      "icona": "📖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Touch e-paper e-book reader with KOReader",
+          "descrizione": "E-book reader with a touch e-paper screen that reads like paper, with KOReader preinstalled for EPUB and PDF.",
+          "descrizione_completa": "A screen that does not tire your eyes and reads in sunlight, with touch to turn pages and zoom.\nKOReader preinstalled: reads EPUB, PDF and other formats, with adjustable fonts and margins.\nCharges over USB-C and the battery lasts long because the screen only draws power when the page changes.\nConnects over WiFi to transfer books from your phone or PC. Instructions included.\nMade for people who already have their books and want an open reader with no mandatory store.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "blocco-note-epaper-touch",
+      "nome": "Blocco note e-paper touch per appunti e agenda",
+      "categoria": "display-epaper",
+      "prezzo_centesimi": 12900,
+      "descrizione": "Blocco note e-paper touch dove scrivi con la penna come su carta e ritrovi appunti, agenda e liste sul telefono.",
+      "descrizione_completa": "Scrivi con una penna come su un foglio, senza luce e senza notifiche, e gli appunti si salvano e si ritrovano sul telefono.\nSchermo e-paper touch a bassissimo consumo: la batteria dura settimane.\nPagine per agenda, liste, disegni a mano libera e moduli pronti da riempire.\nSi collega al Wi-Fi per sincronizzare con telefono e PC. Guida in italiano.\nPensato per chi prende molti appunti e vuole meno distrazioni dello schermo del telefono.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/blocco-note-epaper-touch.webp",
+      "icona": "🖊",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Touch e-paper notepad for notes and planner",
+          "descrizione": "Touch e-paper notepad where you write with a pen like on paper and find notes, planner and lists on your phone.",
+          "descrizione_completa": "Write with a pen like on a sheet, with no light and no notifications, and your notes are saved and available on your phone.\nUltra low power touch e-paper screen: the battery lasts weeks.\nPages for planner, lists, freehand drawing and ready-to-fill forms.\nConnects over WiFi to sync with phone and PC. Guide included.\nMade for people who take lots of notes and want fewer distractions than the phone screen.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "specchio-smart-magicmirror",
+      "nome": "Specchio smart pronto all'uso con ora, meteo e calendario",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 29900,
+      "descrizione": "Specchio da parete con monitor integrato che mostra ora, meteo e impegni mentre ti guardi allo specchio. Lo appendi e funziona.",
+      "descrizione_completa": "Uno specchio normale finché non serve: ora, meteo e impegni compaiono sul vetro, in bianco su sfondo specchiato.\nÈ già tutto montato in cornice, con MagicMirror preinstallato: lo appendi, lo colleghi alla corrente e al Wi-Fi.\nLingua e città si scelgono dal telefono, senza toccare file.\nPensato per ingresso, bagno o camera. Alimentatore certificato incluso.\nAttenzione: è un oggetto in vetro, va spedito e appeso con cura. Misure e peso da confermare prima della vendita.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/specchio-smart-magicmirror.webp",
+      "icona": "🪞",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ready-to-use smart mirror with time, weather and calendar",
+          "descrizione": "Wall mirror with a built-in display that shows time, weather and appointments while you look in it. Hang it and it works.",
+          "descrizione_completa": "A normal mirror until you need it: time, weather and appointments appear on the glass, white on a mirrored background.\nEverything is already assembled in the frame, with MagicMirror preinstalled: hang it, plug it in and connect to WiFi.\nLanguage and city are chosen from your phone, no files to touch.\nMade for hallway, bathroom or bedroom. Certified power supply included.\nNote: it is a glass object, to be shipped and hung with care. Size and weight to be confirmed before sale.\nFinal specifications and contents to be confirmed before sale."
         }
       }
     }
