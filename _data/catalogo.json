@@ -4,7 +4,7 @@
     {
       "nome": "Mesh LoRa e Meshtastic",
       "id": "mesh-lora",
-      "icona": "\ud83d\udce1",
+      "icona": "📡",
       "descrizione": "Ripetitori, nodi e kit per reti mesh LoRa senza internet: schede ESP32 e Raspberry Pi gia' configurate, pronte da installare.",
       "immagine": "assets/images/categorie/mesh-lora.webp",
       "tr": {
@@ -25,7 +25,7 @@
       "descrizione": "Ripetitore mesh LoRa a energia solare: scheda ESP32-S3 con radio SX1262, firmware Meshtastic gia' installato, in custodia stagna con pannello solare. Lo monti e copre la zona.",
       "descrizione_completa": "Ripetitore per reti mesh LoRa pronto da installare all'aperto: scheda ESP32-S3 con radio LoRa SX1262, antenna esterna e firmware Meshtastic gia' configurato in modalita' ripetitore.\nAlloggiato in una custodia stagna con pannello solare e batteria ricaricabile, per funzionare senza alimentazione di rete.\nPensato per chi vuole estendere una rete mesh su colline, rifugi, aziende agricole o zone senza copertura. La portata reale dipende da altezza di installazione e ostacoli.\nFrequenza europea 868 MHz. Spedito testato, con istruzioni di montaggio in italiano.",
       "immagine": "assets/images/prodotti/ripetitore-meshtastic-solare.webp",
-      "icona": "\ud83d\udce1",
+      "icona": "📡",
       "visibile": true,
       "tr": {
         "en": {
