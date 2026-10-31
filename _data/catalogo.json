@@ -2,33 +2,36 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Mesh LoRa e Meshtastic",
+      "id": "mesh-lora",
+      "icona": "\ud83d\udce1",
+      "descrizione": "Ripetitori, nodi e kit per reti mesh LoRa senza internet: schede ESP32 e Raspberry Pi gia' configurate, pronte da installare.",
+      "immagine": "assets/images/categorie/mesh-lora.webp",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "LoRa Mesh & Meshtastic",
+          "descrizione": "Repeaters, nodes and kits for off-grid LoRa mesh networks: ESP32 and Raspberry Pi boards already configured and ready to install."
         }
       }
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
-      "immagine": "",
-      "icona": "🛍️",
+      "tipo": "fisico",
+      "id": "ripetitore-meshtastic-solare",
+      "nome": "Ripetitore Meshtastic solare ESP32 LoRa",
+      "categoria": "mesh-lora",
+      "prezzo_centesimi": 7900,
+      "descrizione": "Ripetitore mesh LoRa a energia solare: scheda ESP32-S3 con radio SX1262, firmware Meshtastic gia' installato, in custodia stagna con pannello solare. Lo monti e copre la zona.",
+      "descrizione_completa": "Ripetitore per reti mesh LoRa pronto da installare all'aperto: scheda ESP32-S3 con radio LoRa SX1262, antenna esterna e firmware Meshtastic gia' configurato in modalita' ripetitore.\nAlloggiato in una custodia stagna con pannello solare e batteria ricaricabile, per funzionare senza alimentazione di rete.\nPensato per chi vuole estendere una rete mesh su colline, rifugi, aziende agricole o zone senza copertura. La portata reale dipende da altezza di installazione e ostacoli.\nFrequenza europea 868 MHz. Spedito testato, con istruzioni di montaggio in italiano.",
+      "immagine": "assets/images/prodotti/ripetitore-meshtastic-solare.webp",
+      "icona": "\ud83d\udce1",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Solar Meshtastic repeater ESP32 LoRa",
+          "descrizione": "Solar-powered LoRa mesh repeater: ESP32-S3 board with SX1262 radio, Meshtastic firmware pre-installed, in a weatherproof case with solar panel. Mount it and it covers the area.",
+          "descrizione_completa": "Outdoor-ready repeater for LoRa mesh networks: ESP32-S3 board with SX1262 LoRa radio, external antenna and Meshtastic firmware already configured as a repeater.\nHoused in a weatherproof case with a solar panel and rechargeable battery, so it runs without mains power.\nBuilt for anyone extending a mesh network over hills, mountain huts, farms or areas with no coverage. Real-world range depends on mounting height and obstacles.\nEuropean 868 MHz band. Shipped tested, with assembly instructions."
         }
       }
     }
