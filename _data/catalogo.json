@@ -13,6 +13,45 @@
           "descrizione": "Repeaters, nodes and kits for off-grid LoRa mesh networks: ESP32 and Raspberry Pi boards already configured and ready to install."
         }
       }
+    },
+    {
+      "nome": "Nodi e schede Meshtastic",
+      "id": "nodi-meshtastic",
+      "icona": "📟",
+      "descrizione": "Nodi LoRa portatili e schede ESP32 con firmware Meshtastic gia' installato, pronti per la tua rete mesh.",
+      "immagine": "assets/images/categorie/nodi-meshtastic.webp",
+      "tr": {
+        "en": {
+          "nome": "Meshtastic Nodes & Boards",
+          "descrizione": "Portable LoRa nodes and ESP32 boards with Meshtastic firmware pre-installed, ready for your mesh network."
+        }
+      }
+    },
+    {
+      "nome": "Tracker GPS LoRa",
+      "id": "tracker-gps",
+      "icona": "📍",
+      "descrizione": "Tracker GPS compatti su rete LoRa, senza SIM e senza abbonamento, per mezzi, animali e attrezzature.",
+      "immagine": "assets/images/categorie/tracker-gps.webp",
+      "tr": {
+        "en": {
+          "nome": "LoRa GPS Trackers",
+          "descrizione": "Compact GPS trackers on LoRa networks, with no SIM and no subscription, for vehicles, animals and equipment."
+        }
+      }
+    },
+    {
+      "nome": "Kit modulari e Raspberry Pi",
+      "id": "kit-modulari",
+      "icona": "🧩",
+      "descrizione": "Kit modulari e basi Raspberry Pi per costruire gateway e nodi LoRa su misura.",
+      "immagine": "assets/images/categorie/kit-modulari.webp",
+      "tr": {
+        "en": {
+          "nome": "Modular Kits & Raspberry Pi",
+          "descrizione": "Modular kits and Raspberry Pi bases for building custom LoRa gateways and nodes."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -32,6 +71,63 @@
           "nome": "Solar Meshtastic repeater ESP32 LoRa",
           "descrizione": "Solar-powered LoRa mesh repeater: ESP32-S3 board with SX1262 radio, Meshtastic firmware pre-installed, in a weatherproof case with solar panel. Mount it and it covers the area.",
           "descrizione_completa": "Outdoor-ready repeater for LoRa mesh networks: ESP32-S3 board with SX1262 LoRa radio, external antenna and Meshtastic firmware already configured as a repeater.\nHoused in a weatherproof case with a solar panel and rechargeable battery, so it runs without mains power.\nBuilt for anyone extending a mesh network over hills, mountain huts, farms or areas with no coverage. Real-world range depends on mounting height and obstacles.\nEuropean 868 MHz band. Shipped tested, with assembly instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "nodo-meshtastic-portatile",
+      "nome": "Nodo Meshtastic portatile LoRa con display",
+      "categoria": "nodi-meshtastic",
+      "prezzo_centesimi": 4900,
+      "descrizione": "Nodo LoRa portatile con display e antenna, firmware Meshtastic gia' installato. Lo accendi e sei in rete.",
+      "descrizione_completa": "Nodo LoRa portatile con display e antenna, spedito con firmware Meshtastic gia' installato.\nPensato per escursioni, eventi e comunicazione senza internet. La portata reale dipende da ostacoli e altezza.\nBanda europea 868 MHz. Spedito testato.",
+      "immagine": "assets/images/prodotti/nodo-meshtastic-portatile.webp",
+      "icona": "📟",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Portable Meshtastic LoRa node with display",
+          "descrizione": "Portable LoRa node with display and antenna, Meshtastic firmware pre-installed. Switch it on and you are on the mesh.",
+          "descrizione_completa": "Portable LoRa node with display and antenna, shipped with Meshtastic firmware pre-installed.\nBuilt for hiking, events and communication without internet. Real-world range depends on obstacles and height.\nEuropean 868 MHz band. Shipped tested."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tracker-gps-lora",
+      "nome": "Tracker GPS LoRa senza abbonamento",
+      "categoria": "tracker-gps",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Tracker GPS compatto su rete LoRa: niente SIM, niente canone mensile.",
+      "descrizione_completa": "Tracker GPS compatto che invia la posizione tramite rete LoRa, senza SIM e senza canone.\nUtile per mezzi, attrezzature e animali in zone coperte dalla rete mesh.\nLa copertura dipende dai nodi presenti nella zona.",
+      "immagine": "assets/images/prodotti/tracker-gps-lora.webp",
+      "icona": "📍",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "LoRa GPS tracker, no subscription",
+          "descrizione": "Compact GPS tracker on a LoRa network: no SIM, no monthly fee.",
+          "descrizione_completa": "Compact GPS tracker that sends its position over a LoRa network, with no SIM and no fee.\nUseful for vehicles, equipment and animals in areas covered by the mesh network.\nCoverage depends on the nodes available in the area."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-gateway-raspberry",
+      "nome": "Kit gateway LoRa con Raspberry Pi",
+      "categoria": "kit-modulari",
+      "prezzo_centesimi": 12900,
+      "descrizione": "Kit per costruire un gateway LoRa su Raspberry Pi, con modulo radio e antenna.",
+      "descrizione_completa": "Kit per costruire un gateway LoRa su base Raspberry Pi, con modulo radio e antenna.\nPensato per chi vuole una stazione fissa sempre accesa. Istruzioni di montaggio incluse.\nBanda europea 868 MHz.",
+      "immagine": "assets/images/prodotti/kit-gateway-raspberry.webp",
+      "icona": "🧩",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "LoRa gateway kit with Raspberry Pi",
+          "descrizione": "Kit for building a LoRa gateway on Raspberry Pi, with radio module and antenna.",
+          "descrizione_completa": "Kit for building a LoRa gateway on a Raspberry Pi base, with radio module and antenna.\nBuilt for anyone who wants an always-on fixed station. Assembly instructions included.\nEuropean 868 MHz band."
         }
       }
     }
