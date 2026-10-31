@@ -107,6 +107,19 @@
           "descrizione": "Trackers for dogs, cats, cars and vans: 4G for position wherever there is a network, Bluetooth for keys and collars."
         }
       }
+    },
+    {
+      "nome": "Smart home e domotica",
+      "id": "smart-home",
+      "icona": "🏠",
+      "descrizione": "Sensori e moduli per la casa intelligente, pensati per Home Assistant: presenza, qualità dell'aria, cancelli e Bluetooth, con istruzioni in italiano.",
+      "immagine": "assets/images/categorie/smart-home.webp",
+      "tr": {
+        "en": {
+          "nome": "Smart home and home automation",
+          "descrizione": "Sensors and modules for the smart home, designed for Home Assistant: presence, air quality, gates and Bluetooth, with instructions."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -468,6 +481,101 @@
           "nome": "Collar kit with Bluetooth tag holder and ID tag",
           "descrizione": "Collar with a protective holder for a Bluetooth tag and an ID tag, no subscriptions.",
           "descrizione_completa": "A simple solution with no subscriptions: a collar with a waterproof holder for a Bluetooth tag (not included) and an ID tag with your contact details.\nA Bluetooth tag only works when a compatible phone is nearby, so it suits a dog or cat that does not wander far, not open countryside.\nCheck that the tag you own fits the holder.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sensore-presenza-mmwave",
+      "nome": "Sensore di presenza mmWave per Home Assistant",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 3900,
+      "descrizione": "Sensore radar che sa se in una stanza c'è qualcuno anche se sta fermo, con firmware ESPHome già caricato.",
+      "descrizione_completa": "Un sensore a infrarossi spegne la luce quando stai fermo sul divano. Questo no: il radar mmWave rileva anche chi è immobile, quindi luci e clima si regolano in base alla presenza reale.\nFirmware ESPHome già caricato: si collega al Wi-Fi e compare in Home Assistant, con controllo locale e senza cloud.\nSi alimenta con un normale alimentatore USB da 5 V (non incluso), quindi non serve toccare l'impianto a 230 V.\nPensato per chi usa già Home Assistant. Istruzioni di configurazione in italiano.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/sensore-presenza-mmwave.webp",
+      "icona": "🏠",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "mmWave presence sensor for Home Assistant",
+          "descrizione": "Radar sensor that knows if someone is in a room even when still, with ESPHome firmware preloaded.",
+          "descrizione_completa": "An infrared sensor turns off the light when you sit still on the sofa. This one does not: the mmWave radar also detects people who are not moving, so lights and heating follow real presence.\nESPHome firmware preloaded: it joins your WiFi and shows up in Home Assistant, with local control and no cloud.\nIt runs from a standard 5 V USB adapter (not included), so there is no need to touch the 230 V wiring.\nMade for people already using Home Assistant. Setup instructions included.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-3-sensori-presenza",
+      "nome": "Kit 3 sensori di presenza mmWave",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 10900,
+      "descrizione": "Tre sensori di presenza per coprire soggiorno, camera e bagno, già configurati per Home Assistant.",
+      "descrizione_completa": "Tre sensori di presenza mmWave già preparati con ESPHome, per le stanze dove le luci si dimenticano accese più spesso.\nCon il kit risparmi rispetto a tre sensori singoli e ricevi un'unica guida di installazione in italiano.\nOgni sensore si alimenta via USB 5 V. Si collega al Wi-Fi e funziona in locale con Home Assistant.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/kit-3-sensori-presenza.webp",
+      "icona": "🏠",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Kit of 3 mmWave presence sensors",
+          "descrizione": "Three presence sensors to cover living room, bedroom and bathroom, pre-configured for Home Assistant.",
+          "descrizione_completa": "Three mmWave presence sensors already prepared with ESPHome, for the rooms where lights are most often left on.\nThe kit costs less than three single sensors and comes with one installation guide.\nEach sensor runs on 5 V USB. It joins WiFi and works locally with Home Assistant.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "proxy-bluetooth-home-assistant",
+      "nome": "Proxy Bluetooth per Home Assistant, 2 pezzi",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 2490,
+      "descrizione": "Due piccoli ripetitori Bluetooth da mettere in casa per far arrivare ovunque i sensori Bluetooth a Home Assistant.",
+      "descrizione_completa": "Molti sensori economici (temperatura, piante, bilance) usano il Bluetooth, che arriva poco lontano. Questi due ripetitori si mettono in due stanze e portano i dati al tuo Home Assistant tramite Wi-Fi.\nFirmware ESPHome già caricato, si alimentano via USB.\nUtile anche come base per rilevare la presenza dei telefoni.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/proxy-bluetooth-home-assistant.webp",
+      "icona": "📶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Bluetooth proxy for Home Assistant, 2 pack",
+          "descrizione": "Two small Bluetooth repeaters to place around the house so Bluetooth sensors reach Home Assistant everywhere.",
+          "descrizione_completa": "Many cheap sensors (temperature, plants, scales) use Bluetooth, which does not reach far. These two repeaters go in two rooms and carry the data to your Home Assistant over WiFi.\nESPHome firmware preloaded, powered by USB.\nAlso useful as a base to detect phones for presence.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sensore-aria-co2",
+      "nome": "Sensore CO2, temperatura e umidità per Home Assistant",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 4900,
+      "descrizione": "Misura CO2, temperatura e umidità e ti dice quando è ora di aprire la finestra, con integrazione in Home Assistant.",
+      "descrizione_completa": "Quando in una stanza chiusa la CO2 sale, si sta peggio senza accorgersene: sonno agitato, poca concentrazione. Questo sensore misura CO2, temperatura e umidità e puoi usarlo per far suonare un avviso o accendere un ricambio d'aria.\nFirmware ESPHome già caricato, alimentazione USB 5 V, funziona in locale con Home Assistant.\nLa taratura dei sensori CO2 va verificata: la precisione definitiva sarà indicata in scheda dopo le prove.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/sensore-aria-co2.webp",
+      "icona": "🌬",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "CO2, temperature and humidity sensor for Home Assistant",
+          "descrizione": "Measures CO2, temperature and humidity and tells you when to open the window, with Home Assistant integration.",
+          "descrizione_completa": "When CO2 rises in a closed room you feel worse without noticing: restless sleep, poor focus. This sensor measures CO2, temperature and humidity, and you can use it to trigger an alert or ventilation.\nESPHome firmware preloaded, 5 V USB power, works locally with Home Assistant.\nCO2 sensor calibration must be verified: final accuracy will be stated on the page after testing.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "apricancello-wifi",
+      "nome": "Apricancello e garage Wi-Fi a contatto pulito",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 2900,
+      "descrizione": "Modulo a bassa tensione che simula il pulsante del telecomando per aprire cancello o garage dal telefono.",
+      "descrizione_completa": "Si collega ai morsetti del pulsante o dell'ingresso 'apertura' della tua centralina e fa la stessa cosa di una pressione: apre o chiude il cancello dal telefono, anche quando sei fuori.\nÈ un contatto pulito a bassa tensione: non serve collegarlo alla rete a 230 V e non tocca le sicurezze del cancello.\nFirmware ESPHome già caricato, compare in Home Assistant. Istruzioni in italiano con lo schema di collegamento.\nPer l'automazione di un cancello fatti aiutare da un installatore se non sei sicuro: le sicurezze (fotocellule, costa) devono restare attive.\nSpecifiche e dotazione definitive da confermare prima della vendita.",
+      "immagine": "assets/images/prodotti/apricancello-wifi.webp",
+      "icona": "🚪",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "WiFi gate and garage opener with dry contact",
+          "descrizione": "Low-voltage module that acts like the remote button to open a gate or garage from your phone.",
+          "descrizione_completa": "It connects to the button terminals or the 'open' input of your gate controller and does the same as a press: it opens or closes the gate from your phone, even when you are away.\nIt is a low-voltage dry contact: there is no need to connect to 230 V mains and it does not touch the gate's safety devices.\nESPHome firmware preloaded, shows up in Home Assistant. Instructions with a wiring diagram included.\nFor gate automation, get an installer's help if unsure: safety devices (photocells, safety edge) must stay active.\nFinal specifications and contents to be confirmed before sale."
         }
       }
     }
