@@ -55,6 +55,19 @@
         }
       },
       "genitore": "mesh-lora"
+    },
+    {
+      "nome": "Antenne 4G/5G e internet in zone isolate",
+      "id": "antenne-4g-5g",
+      "icona": "📶",
+      "descrizione": "Kit antenna 4G/5G da palo, pronti da montare: pannello direzionale o omnidirezionale, cavi e staffe.",
+      "immagine": "assets/images/categorie/antenne-4g-5g.webp",
+      "tr": {
+        "en": {
+          "nome": "4G/5G antennas and internet for remote areas",
+          "descrizione": "Pole-mount 4G/5G antenna kits, ready to install: directional panel or omnidirectional, with cables and brackets."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -207,6 +220,63 @@
           "nome": "Modular LoRa node kit, DIY assembly",
           "descrizione": "Modular kit for building a LoRa node: base board, radio module and antenna. Assembles with no soldering.",
           "descrizione_completa": "Modular kit for building a custom LoRa node: base board, LoRa radio module, antenna and connecting cables.\nSnaps together with no soldering and can be expanded with more modules.\nMeshtastic firmware can be installed from the app or a computer, assembly instructions included. European 868 MHz band.\nReal-world range depends on height and obstacles."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-antenna-4g-5g-pannello-2x2",
+      "nome": "Kit antenna 4G/5G pannello direzionale 2x2 da palo",
+      "categoria": "antenne-4g-5g",
+      "prezzo_centesimi": 12900,
+      "descrizione": "Kit con antenna a pannello direzionale 2x2, due cavi e staffa per palo. Per migliorare il segnale 4G/5G dove arriva poco.",
+      "descrizione_completa": "Kit pronto da montare: antenna a pannello direzionale 2x2 per reti 4G/5G, due cavi coassiali già terminati e staffa per palo.\nSi punta verso il ripetitore dell'operatore e si collega al router o al modem compatibile.\nPrima di acquistare controlla i connettori del tuo router: nella scheda trovi gli adattatori disponibili.\nIstruzioni di montaggio in italiano incluse. I risultati dipendono da posizione, altezza e distanza dal ripetitore.",
+      "immagine": "assets/images/prodotti/kit-antenna-4g-5g-pannello-2x2.webp",
+      "icona": "📶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4G/5G directional panel antenna kit 2x2, pole mount",
+          "descrizione": "Kit with a 2x2 directional panel antenna, two cables and a pole bracket. To improve 4G/5G signal where it is weak.",
+          "descrizione_completa": "Ready-to-install kit: 2x2 directional panel antenna for 4G/5G networks, two pre-terminated coaxial cables and a pole bracket.\nYou aim it at the operator's tower and connect it to a compatible router or modem.\nBefore buying, check your router's connectors: the available adapters are listed on the page.\nInstallation instructions in Italian included. Results depend on position, height and distance from the tower."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-antenna-4g-5g-pannello-4x4",
+      "nome": "Kit antenna 4G/5G pannello direzionale 4x4 da palo",
+      "categoria": "antenne-4g-5g",
+      "prezzo_centesimi": 18900,
+      "descrizione": "Kit con antenna a pannello direzionale 4x4 per router con quattro porte, quattro cavi e staffa per palo.",
+      "descrizione_completa": "Kit pronto da montare: antenna a pannello direzionale 4x4 per reti 4G/5G, quattro cavi coassiali già terminati e staffa per palo.\nPensato per router e modem con quattro connettori d'antenna.\nSe il tuo router ha solo due connettori, scegli il kit 2x2.\nIstruzioni di montaggio in italiano incluse. I risultati dipendono da posizione, altezza e distanza dal ripetitore.",
+      "immagine": "assets/images/prodotti/kit-antenna-4g-5g-pannello-4x4.webp",
+      "icona": "📶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4G/5G directional panel antenna kit 4x4, pole mount",
+          "descrizione": "Kit with a 4x4 directional panel antenna for routers with four ports, four cables and a pole bracket.",
+          "descrizione_completa": "Ready-to-install kit: 4x4 directional panel antenna for 4G/5G networks, four pre-terminated coaxial cables and a pole bracket.\nDesigned for routers and modems with four antenna connectors.\nIf your router has only two connectors, choose the 2x2 kit.\nInstallation instructions in Italian included. Results depend on position, height and distance from the tower."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-antenna-4g-5g-omni",
+      "nome": "Kit antenna 4G/5G omnidirezionale da palo",
+      "categoria": "antenne-4g-5g",
+      "prezzo_centesimi": 8900,
+      "descrizione": "Kit con antenna omnidirezionale 4G/5G, cavo e staffa per palo. Non serve puntarla: adatta se i ripetitori sono in più direzioni.",
+      "descrizione_completa": "Kit pronto da montare: antenna omnidirezionale per reti 4G/5G, cavo coassiale già terminato e staffa per palo.\nNon richiede puntamento. Se il ripetitore è lontano o in una direzione precisa, il pannello direzionale in genere rende meglio.\nControlla i connettori del tuo router prima di acquistare.\nIstruzioni di montaggio in italiano incluse. I risultati dipendono da posizione, altezza e distanza dal ripetitore.",
+      "immagine": "assets/images/prodotti/kit-antenna-4g-5g-omni.webp",
+      "icona": "📶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4G/5G omnidirectional antenna kit, pole mount",
+          "descrizione": "Kit with an omnidirectional 4G/5G antenna, cable and pole bracket. No aiming needed: suited when towers are in several directions.",
+          "descrizione_completa": "Ready-to-install kit: omnidirectional antenna for 4G/5G networks, pre-terminated coaxial cable and a pole bracket.\nNo aiming required. If the tower is far away or in one specific direction, a directional panel usually performs better.\nCheck your router's connectors before buying.\nInstallation instructions in Italian included. Results depend on position, height and distance from the tower."
         }
       }
     }
