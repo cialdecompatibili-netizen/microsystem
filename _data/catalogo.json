@@ -133,6 +133,19 @@
           "descrizione": "E-paper screens that look like paper: calendar, weather, notes and reminders always visible, ultra low power and no glare."
         }
       }
+    },
+    {
+      "nome": "Hotspot WiFi a pagamento",
+      "id": "hotspot-wifi",
+      "icona": "📶",
+      "descrizione": "Box WiFi con SIM 4G/5G e portale di accesso a pagamento: vendi internet a ospiti, clienti e visitatori in B&B, ville, eventi, mercati e piazze.",
+      "immagine": "assets/images/categorie/hotspot-wifi.webp",
+      "tr": {
+        "en": {
+          "nome": "Pay-per-use WiFi Hotspots",
+          "descrizione": "WiFi boxes with a 4G/5G SIM and a pay-per-use access portal: sell internet to guests, customers and visitors at B&Bs, villas, events, markets and squares."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -741,6 +754,63 @@
           "nome": "Ready-to-use smart mirror with time, weather and calendar",
           "descrizione": "Wall mirror with a built-in display that shows time, weather and appointments while you look in it. Hang it and it works.",
           "descrizione_completa": "A normal mirror until you need it: time, weather and appointments appear on the glass, white on a mirrored background.\nEverything is already assembled in the frame, with MagicMirror preinstalled: hang it, plug it in and connect to WiFi.\nLanguage and city are chosen from your phone, no files to touch.\nMade for hallway, bathroom or bedroom. Certified power supply included.\nNote: it is a glass object, to be shipped and hung with care. Size and weight to be confirmed before sale.\nFinal specifications and contents to be confirmed before sale."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "paynet-box-4g5g",
+      "nome": "PayNet Box: hotspot WiFi a pagamento 4G/5G",
+      "categoria": "hotspot-wifi",
+      "prezzo_centesimi": 24900,
+      "descrizione": "Box WiFi con slot SIM 4G/5G e portale di accesso: gli ospiti si collegano, scelgono il pacchetto (1 ora, 1 giorno, 1 settimana) e pagano con carta o Satispay.",
+      "descrizione_completa": "PayNet Box porta internet dove non c'e' o dove e' sovraccarico: inserisci la tua SIM 4G/5G e hai una rete WiFi con portale di accesso a pagamento.\nL'ospite si collega, vede i pacchetti che hai deciso tu (a tempo o a traffico), paga online e naviga. Tu gestisci prezzi, durata e limiti di banda da un pannello web.\nPensato per B&B, ville, residence, eventi, mercati, fiere, piazze e locali affollati. Puo' funzionare anche come rete di riserva se la linea fissa cade.\nSIM e traffico dati non inclusi. Prima di rivendere accesso a internet verifica che il contratto del tuo operatore lo consenta e gli obblighi di legge che ti riguardano (autorizzazione, privacy, conservazione dei log).\nSpedito configurato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/paynet-box-4g5g.webp",
+      "icona": "📶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "PayNet Box: pay-per-use 4G/5G WiFi hotspot",
+          "descrizione": "WiFi box with a 4G/5G SIM slot and an access portal: guests connect, pick a plan (1 hour, 1 day, 1 week) and pay by card or Satispay.",
+          "descrizione_completa": "PayNet Box brings internet where there is none or where the network is overloaded: insert your own 4G/5G SIM and you get a WiFi network with a pay-per-use access portal.\nGuests connect, see the plans you set (by time or by data), pay online and browse. You manage prices, duration and bandwidth limits from a web panel.\nBuilt for B&Bs, villas, residences, events, markets, fairs, squares and crowded venues. It can also act as a backup network when the fixed line goes down.\nSIM and data plan not included. Before reselling internet access, check that your carrier contract allows it and the legal obligations that apply to you (authorisation, privacy, log retention).\nShipped pre-configured, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "paynet-link-ponte",
+      "nome": "PayNet Link: ponte wireless punto-punto",
+      "categoria": "hotspot-wifi",
+      "prezzo_centesimi": 14900,
+      "descrizione": "Coppia di ponti radio per portare internet da un punto a un altro senza cavi: dal box 4G/5G al gazebo, al cortile o all'edificio accanto.",
+      "descrizione_completa": "PayNet Link e' una coppia di ponti radio gia' abbinati: uno si collega al tuo PayNet Box o al router, l'altro porta il segnale nel punto che vuoi servire.\nUtile per coprire cortili, stand di un mercato, aree evento, dependance di ville e B&B, dove non arriva il cavo.\nSi alimentano via PoE, si fissano a muro o a palo e si accendono: sono gia' configurati.\nLa portata reale dipende da distanza, altezza e ostacoli: serve visibilita' tra i due ponti. Spedito testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/paynet-link-ponte.webp",
+      "icona": "📡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "PayNet Link: point-to-point wireless bridge",
+          "descrizione": "Pair of wireless bridges to carry internet from one point to another without cables: from the 4G/5G box to the gazebo, courtyard or next building.",
+          "descrizione_completa": "PayNet Link is a pre-paired set of wireless bridges: one connects to your PayNet Box or router, the other carries the signal to the spot you want to cover.\nUseful for courtyards, market stalls, event areas, outbuildings of villas and B&Bs, wherever a cable cannot reach.\nPowered over PoE, wall or pole mounted, ready to switch on: already configured.\nReal range depends on distance, height and obstacles: the two bridges need line of sight. Shipped tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "paynet-event-kit",
+      "nome": "PayNet Event Kit: WiFi a pagamento per eventi e mercati",
+      "categoria": "hotspot-wifi",
+      "prezzo_centesimi": 34900,
+      "descrizione": "PayNet Box con antenna 4G/5G esterna e batteria: accendi e vendi WiFi in piazza, a una fiera o a un evento, senza prese di corrente.",
+      "descrizione_completa": "Il kit per chi vende WiFi a tempo in luoghi senza infrastruttura: PayNet Box, antenna 4G/5G esterna per agganciare meglio la cella e batteria per lavorare senza presa.\nPer mercati, piazze, fiere, sagre, concerti, cantieri e punti vendita temporanei.\nPortale di accesso a pagamento incluso, con pacchetti a tempo che imposti tu e pannello web per vedere connessioni e incassi.\nSIM e traffico dati non inclusi. Verifica contratto dell'operatore e obblighi di legge prima di rivendere accesso a internet. Spedito configurato.",
+      "immagine": "assets/images/prodotti/paynet-event-kit.webp",
+      "icona": "🎪",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "PayNet Event Kit: pay-per-use WiFi for events and markets",
+          "descrizione": "PayNet Box with an external 4G/5G antenna and battery: switch on and sell WiFi in a square, at a fair or at an event, with no mains power needed.",
+          "descrizione_completa": "The kit for anyone selling timed WiFi where there is no infrastructure: PayNet Box, external 4G/5G antenna to lock onto the cell better, and a battery to work without a socket.\nFor markets, squares, fairs, festivals, concerts, building sites and pop-up sales points.\nPay-per-use access portal included, with time plans you set and a web panel to see connections and takings.\nSIM and data plan not included. Check your carrier contract and legal obligations before reselling internet access. Shipped pre-configured."
         }
       }
     }
