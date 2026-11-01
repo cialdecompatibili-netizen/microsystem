@@ -146,6 +146,73 @@
           "descrizione": "WiFi boxes with a 4G/5G SIM and a pay-per-use access portal: sell internet to guests, customers and visitors at B&Bs, villas, events, markets and squares."
         }
       }
+    },
+    {
+      "nome": "Privacy e rete",
+      "id": "privacy-rete",
+      "icona": "🛡️",
+      "descrizione": "Box pronti per bloccare pubblicita' e tracker su tutta la rete di casa o studio e collegarsi da fuori con VPN: niente configurazioni, si accende e funziona.",
+      "immagine": "assets/images/categorie/privacy-rete.webp",
+      "tr": {
+        "en": {
+          "nome": "Privacy & Network",
+          "descrizione": "Ready-made boxes that block ads and trackers across your whole home or office network and give you a VPN from anywhere: no setup, plug in and go."
+        }
+      }
+    },
+    {
+      "nome": "Videosorveglianza con AI",
+      "id": "nvr-ai",
+      "icona": "📹",
+      "descrizione": "Box NVR con riconoscimento persone, auto e animali, registrazione locale e notifiche: telecamere IP gia' abbinate, senza abbonamenti cloud.",
+      "immagine": "assets/images/categorie/nvr-ai.webp",
+      "tr": {
+        "en": {
+          "nome": "AI Video Surveillance",
+          "descrizione": "NVR boxes with person, car and animal detection, local recording and alerts: pre-paired IP cameras, no cloud subscription."
+        }
+      }
+    },
+    {
+      "nome": "Prese e relay smart",
+      "id": "prese-relay",
+      "icona": "🔌",
+      "descrizione": "Prese, relay e interruttori gia' configurati e testati, senza cloud del produttore, pronti per Home Assistant.",
+      "immagine": "assets/images/categorie/prese-relay.webp",
+      "tr": {
+        "en": {
+          "nome": "Smart Plugs & Relays",
+          "descrizione": "Plugs, relays and switches pre-configured and tested, no vendor cloud, ready for Home Assistant."
+        }
+      },
+      "genitore": "smart-home"
+    },
+    {
+      "nome": "Zigbee e sensori",
+      "id": "zigbee-sensori",
+      "icona": "📡",
+      "descrizione": "Coordinatore Zigbee pronto, sensori ESPHome pre-flashati e tarati, sensore di presenza WiFi e gateway universale BLE/433 verso MQTT.",
+      "immagine": "assets/images/categorie/zigbee-sensori.webp",
+      "tr": {
+        "en": {
+          "nome": "Zigbee & Sensors",
+          "descrizione": "Ready Zigbee coordinator, pre-flashed and calibrated ESPHome sensors, WiFi presence sensor and a universal BLE/433 to MQTT gateway."
+        }
+      },
+      "genitore": "smart-home"
+    },
+    {
+      "nome": "Vending e pagamenti",
+      "id": "vending-pagamenti",
+      "icona": "💳",
+      "descrizione": "Moduli per pagamento cashless e telemetria su distributori automatici, macchine cabinate e self-service (VendLink).",
+      "immagine": "assets/images/categorie/vending-pagamenti.webp",
+      "tr": {
+        "en": {
+          "nome": "Vending & Payments",
+          "descrizione": "Cashless payment and telemetry modules for vending machines, cabinet machines and self-service units (VendLink)."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -811,6 +878,120 @@
           "nome": "PayNet Event Kit: pay-per-use WiFi for events and markets",
           "descrizione": "PayNet Box with an external 4G/5G antenna and battery: switch on and sell WiFi in a square, at a fair or at an event, with no mains power needed.",
           "descrizione_completa": "The kit for anyone selling timed WiFi where there is no infrastructure: PayNet Box, external 4G/5G antenna to lock onto the cell better, and a battery to work without a socket.\nFor markets, squares, fairs, festivals, concerts, building sites and pop-up sales points.\nPay-per-use access portal included, with time plans you set and a web panel to see connections and takings.\nSIM and data plan not included. Check your carrier contract and legal obligations before reselling internet access. Shipped pre-configured."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "safebox-privacy",
+      "nome": "SafeBox: blocco pubblicita' e VPN per tutta la rete",
+      "categoria": "privacy-rete",
+      "prezzo_centesimi": 9900,
+      "descrizione": "Mini box con blocco pubblicita' e tracker per tutta la rete e VPN WireGuard per collegarti a casa da fuori. Si collega al router e funziona.",
+      "descrizione_completa": "SafeBox e' un mini computer silenzioso con blocco di pubblicita' e tracker per tutti i dispositivi della rete (telefoni, TV, PC) e un server VPN WireGuard con pannello web per collegarti da fuori casa o ufficio in sicurezza.\nUtile a famiglie, studi e piccoli negozi. Lo colleghi al router, imposti il DNS come da istruzioni e hai gia' tutto attivo.\nNessun abbonamento e nessun cloud nostro: i dati restano a casa tua e sei libero di usare l'operatore e i servizi che preferisci. Alimentatore incluso.\nIl blocco riduce pubblicita' e tracker ma non puo' garantire la rimozione di tutti. Spedito configurato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/safebox-privacy.webp",
+      "icona": "🛡️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "SafeBox: network-wide ad blocking and VPN",
+          "descrizione": "Mini box with network-wide ad and tracker blocking and a WireGuard VPN to reach your home network from anywhere. Plug it into your router and go.",
+          "descrizione_completa": "SafeBox is a quiet mini computer that blocks ads and trackers for every device on your network (phones, TVs, PCs) and runs a WireGuard VPN server with a web panel so you can connect securely from outside your home or office.\nGreat for families, studios and small shops. Connect it to your router, set the DNS as per the instructions and everything is active.\nNo subscription and no cloud of ours: your data stays with you and you are free to use any provider you like. Power supply included.\nBlocking greatly reduces ads and trackers but cannot guarantee all are removed. Shipped pre-configured, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "box-nvr-ai",
+      "nome": "Box NVR con riconoscimento persone e auto",
+      "categoria": "nvr-ai",
+      "prezzo_centesimi": 24900,
+      "descrizione": "Registratore per telecamere IP con riconoscimento di persone, auto e animali, registrazione locale e notifiche. Telecamere escluse, scegli tu le marche.",
+      "descrizione_completa": "Box NVR e' un registratore compatto con software di videosorveglianza open source e rilevamento di persone, auto e animali, che riduce gli allarmi inutili da foglie, ombre e insetti.\nRegistra in locale su disco (disco incluso nella versione indicata in scheda, altrimenti da aggiungere) e invia notifiche al telefono. Funziona con la maggior parte delle telecamere IP con flusso RTSP, di qualsiasi marca.\nNessun abbonamento e nessun cloud obbligatorio: telecamere, disco e rete li scegli tu. Rispetta la normativa sulla privacy per le telecamere (cartelli, aree riprese).\nSpedito configurato, con istruzioni in italiano. La quantita' di telecamere gestibili dipende dalla risoluzione e dall'hardware.",
+      "immagine": "assets/images/prodotti/box-nvr-ai.webp",
+      "icona": "📹",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "AI NVR box with person and car detection",
+          "descrizione": "Recorder for IP cameras with person, car and animal detection, local recording and alerts. Cameras not included: choose any brand.",
+          "descrizione_completa": "NVR Box is a compact recorder running open source video surveillance software with person, car and animal detection, cutting false alarms from leaves, shadows and insects.\nIt records locally to disk (disk to be added unless stated on the listing) and sends phone alerts. Works with most IP cameras with an RTSP stream, any brand.\nNo subscription and no mandatory cloud: you choose cameras, disk and network. Follow your local privacy rules for cameras (signage, filmed areas).\nShipped pre-configured, with instructions. How many cameras it handles depends on resolution and hardware."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "prese-smart-4",
+      "nome": "Prese smart senza cloud (set da 4)",
+      "categoria": "prese-relay",
+      "prezzo_centesimi": 3900,
+      "descrizione": "Quattro prese smart gia' configurate per Home Assistant e MQTT, senza app del produttore e senza cloud.",
+      "descrizione_completa": "Set da 4 prese smart con firmware aperto gia' installato e configurato: accendi e spegni, programma orari e leggi i consumi dal tuo Home Assistant o via MQTT, tutto in locale.\nNessun account e nessuna app del produttore, quindi funzionano anche senza internet. Colleghi la presa al WiFi seguendo l'etichetta e hai finito.\nCarico massimo e misura dei consumi indicati sulla scheda del modello fornito. Uso interno, non per apparecchi che richiedono protezione speciale.\nSpedito configurato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/prese-smart-4.webp",
+      "icona": "🔌",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cloud-free smart plugs (pack of 4)",
+          "descrizione": "Four smart plugs pre-configured for Home Assistant and MQTT, no vendor app and no cloud.",
+          "descrizione_completa": "Pack of 4 smart plugs with open firmware already installed and configured: switch, schedule and read power use from your Home Assistant or via MQTT, all locally.\nNo account and no vendor app, so they keep working without internet. Connect each plug to WiFi following the label and you are done.\nMaximum load and energy monitoring as stated on the model supplied. Indoor use, not for appliances needing special protection.\nShipped pre-configured, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "zigbee-coordinatore",
+      "nome": "Coordinatore Zigbee USB pronto all'uso",
+      "categoria": "zigbee-sensori",
+      "prezzo_centesimi": 4900,
+      "descrizione": "Chiavetta Zigbee gia' configurata per Home Assistant: collega sensori e luci di marche diverse senza hub del produttore.",
+      "descrizione_completa": "Coordinatore Zigbee su chiavetta USB con firmware gia' aggiornato e software di collegamento preconfigurato: associ sensori, lampadine, pulsanti e prese di marche diverse in un'unica rete locale.\nNon servono hub o app dei produttori e non c'e' cloud. Compatibile con Home Assistant e MQTT. Lo colleghi al tuo mini PC o Raspberry e segui la guida.\nLa compatibilita' dei singoli dispositivi Zigbee va verificata caso per caso; l'elenco dei dispositivi noti e' pubblico.\nSpedito testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/zigbee-coordinatore.webp",
+      "icona": "📡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ready-to-use USB Zigbee coordinator",
+          "descrizione": "Zigbee USB stick pre-configured for Home Assistant: connect sensors and lights from different brands without vendor hubs.",
+          "descrizione_completa": "Zigbee coordinator on a USB stick with up-to-date firmware and pre-configured bridging software: pair sensors, bulbs, buttons and plugs from different brands on a single local network.\nNo vendor hubs or apps needed and no cloud. Works with Home Assistant and MQTT. Plug it into your mini PC or Raspberry and follow the guide.\nCompatibility of individual Zigbee devices should be checked case by case; the list of known devices is public.\nShipped tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sensori-esphome-kit",
+      "nome": "Kit sensori ESP32 pre-flashati e tarati",
+      "categoria": "zigbee-sensori",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Sensori WiFi per temperatura, umidita' e presenza gia' flashati e tarati per Home Assistant. Li alimenti e li vedi subito.",
+      "descrizione_completa": "Kit di sensori su ESP32 con firmware ESPHome gia' installato e configurato per temperatura, umidita' e presenza (mmWave e PIR combinati per ridurre i falsi positivi). Alimentazione USB.\nSi collegano al WiFi di casa e compaiono in Home Assistant, senza cloud e senza programmare niente. La taratura della presenza e' fatta in fabbrica ma puoi regolarla dal pannello.\nIdeali per automatizzare luci, clima e riscaldamento. Uso interno.\nSpedito testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/sensori-esphome-kit.webp",
+      "icona": "🌡️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pre-flashed calibrated ESP32 sensor kit",
+          "descrizione": "WiFi sensors for temperature, humidity and presence, pre-flashed and calibrated for Home Assistant. Power them and they show up.",
+          "descrizione_completa": "Kit of ESP32 sensors with ESPHome firmware already installed and set up for temperature, humidity and presence (mmWave and PIR combined to cut false positives). USB powered.\nThey join your home WiFi and appear in Home Assistant, no cloud and no programming. Presence calibration is done at the factory and you can fine-tune it from the panel.\nIdeal to automate lights, climate and heating. Indoor use.\nShipped tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vendlink-cashless",
+      "nome": "VendLink: pagamento cashless e telemetria per distributori",
+      "categoria": "vending-pagamenti",
+      "prezzo_centesimi": 12900,
+      "descrizione": "Modulo per distributori e macchine a gettoni con interfaccia MDB: accetta pagamenti cashless e invia dati di vendita. Servizio di pagamento a scelta tua.",
+      "descrizione_completa": "VendLink si collega alla porta MDB di distributori automatici e macchine a gettoni compatibili e aggiunge un lettore di pagamento cashless e la telemetria delle vendite.\nBasato su software aperto: scegli tu il fornitore di pagamento e la connessione (WiFi o SIM tua), senza vincoli verso di noi e senza canoni.\nServe una macchina con interfaccia MDB e un contratto con un fornitore di pagamenti, non inclusi. Installazione da parte di personale qualificato; verifica gli obblighi fiscali e di legge per i pagamenti elettronici.\nSpedito testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/vendlink-cashless.webp",
+      "icona": "💳",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "VendLink: cashless payment and telemetry for vending machines",
+          "descrizione": "Module for vending machines with MDB interface: accepts cashless payments and sends sales data. Payment provider of your choice.",
+          "descrizione_completa": "VendLink plugs into the MDB port of compatible vending and coin machines and adds a cashless payment reader and sales telemetry.\nBuilt on open software: you choose the payment provider and the connection (WiFi or your own SIM), no ties to us and no fees.\nRequires a machine with an MDB interface and a contract with a payment provider, not included. Install by qualified staff; check fiscal and legal obligations for electronic payments.\nShipped tested, with instructions."
         }
       }
     }
