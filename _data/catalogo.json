@@ -213,6 +213,45 @@
           "descrizione": "Cashless payment and telemetry modules for vending machines, cabinet machines and self-service units (VendLink)."
         }
       }
+    },
+    {
+      "nome": "Arcade e retro",
+      "id": "retro-arcade",
+      "icona": "🕹️",
+      "descrizione": "Mini cabinati e console retro gia' assemblati con RetroPie o Batocera. Senza giochi preinstallati: i titoli li aggiungi tu dalle tue copie legali.",
+      "immagine": "assets/images/categorie/retro-arcade.webp",
+      "tr": {
+        "en": {
+          "nome": "Arcade & Retro",
+          "descrizione": "Mini arcade cabinets and retro consoles pre-built with RetroPie or Batocera. No games preinstalled: you add your own legally owned titles."
+        }
+      }
+    },
+    {
+      "nome": "Radio e SDR",
+      "id": "radio-sdr",
+      "icona": "📻",
+      "descrizione": "Ricevitori RTL-SDR, stazioni per sensori 433/868 MHz e feeder ADS-B per vedere gli aerei in tempo reale, gia' configurati.",
+      "immagine": "assets/images/categorie/radio-sdr.webp",
+      "tr": {
+        "en": {
+          "nome": "Radio & SDR",
+          "descrizione": "RTL-SDR receivers, 433/868 MHz sensor stations and ADS-B feeders to track aircraft in real time, pre-configured."
+        }
+      }
+    },
+    {
+      "nome": "Aria e ambiente",
+      "id": "aria-sensori",
+      "icona": "🌬️",
+      "descrizione": "Monitor della qualita' dell'aria con touchscreen e sensori ambientali pronti all'uso, anche con contapersone da porta.",
+      "immagine": "assets/images/categorie/aria-sensori.webp",
+      "tr": {
+        "en": {
+          "nome": "Air & Environment",
+          "descrizione": "Air quality monitors with touchscreen and ready-to-use environmental sensors, plus door people counters."
+        }
+      }
     }
   ],
   "prodotti": [
@@ -992,6 +1031,215 @@
           "nome": "VendLink: cashless payment and telemetry for vending machines",
           "descrizione": "Module for vending machines with MDB interface: accepts cashless payments and sends sales data. Payment provider of your choice.",
           "descrizione_completa": "VendLink plugs into the MDB port of compatible vending and coin machines and adds a cashless payment reader and sales telemetry.\nBuilt on open software: you choose the payment provider and the connection (WiFi or your own SIM), no ties to us and no fees.\nRequires a machine with an MDB interface and a contract with a payment provider, not included. Install by qualified staff; check fiscal and legal obligations for electronic payments.\nShipped tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "router-openwrt",
+      "nome": "Router OpenWrt configurato",
+      "categoria": "privacy-rete",
+      "prezzo_centesimi": 7900,
+      "descrizione": "Router con firmware aperto OpenWrt gia' impostato: WiFi, rete ospiti isolata e VPN pronti, senza cloud del produttore.",
+      "descrizione_completa": "Router con firmware aperto OpenWrt gia' installato e configurato: rete WiFi principale, rete ospiti isolata, firewall e client VPN pronti all'uso. Aggiornamenti di sicurezza dalla comunita' e controllo completo.\nNessun account, nessun cloud e nessun abbonamento: operatore e servizi li scegli tu. Compatibile con SafeBox e con PayNet.\nLa velocita' effettiva dipende dalla tua linea e dalla VPN usata.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/router-openwrt.webp",
+      "icona": "📶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pre-configured OpenWrt router",
+          "descrizione": "Router with open OpenWrt firmware already set up: WiFi, isolated guest network and VPN ready, no vendor cloud.",
+          "descrizione_completa": "Router with open OpenWrt firmware installed and configured: main WiFi, isolated guest network, firewall and VPN client ready to use. Community security updates and full control.\nNo account, no cloud and no subscription: you choose your provider and services. Works with SafeBox and PayNet.\nReal speed depends on your line and the VPN used.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "gateway-universale",
+      "nome": "Gateway universale Bluetooth, 433 MHz e LoRa verso MQTT",
+      "categoria": "zigbee-sensori",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Un solo gateway che porta sensori Bluetooth e radio 433 MHz dentro Home Assistant e MQTT, senza cloud.",
+      "descrizione_completa": "Gateway su ESP32 con firmware OpenMQTTGateway gia' configurato: riceve sensori Bluetooth, telecomandi e sensori radio 433 MHz e li pubblica via MQTT verso Home Assistant e altri sistemi.\nUtile per recuperare sensori meteo, telecomandi e termometri Bluetooth che non hanno un hub. Si collega al WiFi di casa, senza cloud.\nI dispositivi supportati sono quelli dell'elenco pubblico del progetto: verifica prima di acquistare.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/gateway-universale.webp",
+      "icona": "🔁",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Universal Bluetooth, 433 MHz and LoRa to MQTT gateway",
+          "descrizione": "One gateway that brings Bluetooth and 433 MHz radio sensors into Home Assistant and MQTT, no cloud.",
+          "descrizione_completa": "ESP32 gateway with OpenMQTTGateway firmware pre-configured: it receives Bluetooth sensors, remotes and 433 MHz radio sensors and publishes them via MQTT to Home Assistant and others.\nUseful to bring weather sensors, remotes and Bluetooth thermometers that have no hub into your system. Joins your home WiFi, no cloud.\nSupported devices are those on the project's public list: check before buying.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sensore-movimento-wifi",
+      "nome": "Sensore di movimento solo WiFi",
+      "categoria": "zigbee-sensori",
+      "prezzo_centesimi": 2900,
+      "descrizione": "Rileva il movimento in una stanza usando solo il segnale WiFi: niente telecamere e niente sensori da installare nei muri.",
+      "descrizione_completa": "Piccolo modulo ESP32 con firmware di rilevamento del movimento basato sul segnale WiFi del tuo router. Lo inserisci in una presa USB e compare in Home Assistant.\nNiente telecamere e niente microfoni: rispetta la privacy. E' una tecnologia recente: la sensibilita' dipende da stanza, router e mobili e va regolata dal pannello.\nNon e' un antifurto certificato.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/sensore-movimento-wifi.webp",
+      "icona": "📶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "WiFi-only motion sensor",
+          "descrizione": "Detects motion in a room using only the WiFi signal: no cameras and no sensors to mount on walls.",
+          "descrizione_completa": "Small ESP32 module with motion detection firmware based on your router's WiFi signal. Plug it into a USB port and it shows up in Home Assistant.\nNo cameras and no microphones: privacy friendly. It is a recent technology: sensitivity depends on room, router and furniture and can be tuned from the panel.\nNot a certified burglar alarm.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "mini-cabinato-retro",
+      "nome": "Mini cabinato arcade retro",
+      "categoria": "retro-arcade",
+      "prezzo_centesimi": 24900,
+      "descrizione": "Mini cabinato da tavolo con joystick e pulsanti, schermo e Raspberry gia' montati con sistema retro. Giochi non inclusi.",
+      "descrizione_completa": "Mini cabinato da tavolo assemblato: joystick, pulsanti arcade, schermo, altoparlanti e Raspberry Pi con sistema retro gia' installato e configurato, collegamento al controller incluso.\nNon e' precaricato con giochi, ROM o BIOS: i titoli li aggiungi tu dalle tue copie legittime con una chiavetta USB, seguendo la guida.\nPensato come regalo o per sala giochi di casa.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/mini-cabinato-retro.webp",
+      "icona": "🕹️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Retro desktop arcade cabinet",
+          "descrizione": "Desktop mini arcade cabinet with joystick, buttons, screen and Raspberry pre-assembled with a retro system. Games not included.",
+          "descrizione_completa": "Assembled desktop mini arcade cabinet: joystick, arcade buttons, screen, speakers and a Raspberry Pi with a retro system already installed and configured, controls wired.\nIt is NOT preloaded with games, ROMs or BIOS: you add your own legitimately owned titles with a USB stick, following the guide.\nGreat as a gift or for a home games room.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "console-retro",
+      "nome": "Console retro plug and play",
+      "categoria": "retro-arcade",
+      "prezzo_centesimi": 12900,
+      "descrizione": "Mini console con sistema retro gia' installato e due controller. Giochi non inclusi: aggiungi i tuoi.",
+      "descrizione_completa": "Mini console basata su Raspberry Pi con sistema retro (interfaccia a copertine, salvataggi, schermo CRT opzionale) e due controller USB inclusi. Si collega alla TV con HDMI.\nNon include giochi, ROM o BIOS: carichi i tuoi dalle tue copie legittime.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/console-retro.webp",
+      "icona": "🎮",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Plug-and-play retro console",
+          "descrizione": "Mini console with a retro system pre-installed and two controllers. Games not included: add your own.",
+          "descrizione_completa": "Raspberry Pi based mini console with a retro system (cover art interface, save states, optional CRT filter) and two USB controllers included. Connects to your TV via HDMI.\nNo games, ROMs or BIOS included: load your own from copies you legitimately own.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "ricevitore-sdr",
+      "nome": "Ricevitore RTL-SDR pronto",
+      "categoria": "radio-sdr",
+      "prezzo_centesimi": 6900,
+      "descrizione": "Ricevitore radio USB con antenna, gia' configurato per ascoltare e vedere segnali da radio FM ad aerei e sensori.",
+      "descrizione_completa": "Chiavetta RTL-SDR con antenna telescopica e software gia' impostato su mini PC o istruzioni per il tuo computer: ascolti radio FM, banda aerea e segnali di sensori, e vedi lo spettro.\nIl ricevitore ascolta soltanto: verifica le leggi del tuo paese sull'ascolto di comunicazioni non destinate al pubblico.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/ricevitore-sdr.webp",
+      "icona": "📻",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ready-to-use RTL-SDR receiver",
+          "descrizione": "USB radio receiver with antenna, pre-configured to listen to and view signals from FM radio to aircraft and sensors.",
+          "descrizione_completa": "RTL-SDR USB stick with telescopic antenna and software already set up on a mini PC, or instructions for your computer: listen to FM radio, aviation band and sensor signals and see the spectrum.\nThe receiver only listens: check the laws of your country about listening to communications not intended for the public.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "feeder-adsb",
+      "nome": "Feeder ADS-B per vedere gli aerei",
+      "categoria": "radio-sdr",
+      "prezzo_centesimi": 9900,
+      "descrizione": "Ricevitore ADS-B con antenna: vedi gli aerei in tempo reale sulla tua mappa e, se vuoi, condividi i dati con le reti di tracciamento.",
+      "descrizione_completa": "Ricevitore ADS-B su mini PC con antenna dedicata e mappa locale gia' configurata: vedi voli, quota e velocita' nel raggio di ricezione.\nLa condivisione con le reti pubbliche e' facoltativa e a tua scelta. La portata dipende da posizione e antenna, meglio con vista libera.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/feeder-adsb.webp",
+      "icona": "✈️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "ADS-B feeder to track aircraft",
+          "descrizione": "ADS-B receiver with antenna: see aircraft in real time on your own map and, if you wish, share data with tracking networks.",
+          "descrizione_completa": "ADS-B receiver on a mini PC with dedicated antenna and a local map already set up: see flights, altitude and speed within reception range.\nSharing with public networks is optional and your choice. Range depends on location and antenna, best with a clear view.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "monitor-aria",
+      "nome": "Monitor qualita' dell'aria con touchscreen",
+      "categoria": "aria-sensori",
+      "prezzo_centesimi": 8900,
+      "descrizione": "Misura CO2, polveri sottili, temperatura e umidita' con display touchscreen e invio dati a Home Assistant.",
+      "descrizione_completa": "Monitor da tavolo con sensori per CO2, polveri sottili PM2.5, temperatura e umidita' e display touchscreen. Si collega al WiFi e invia i dati a Home Assistant o MQTT, senza cloud.\nUtile per capire quando arieggiare casa, ufficio e aule. E' uno strumento informativo, non un dispositivo medico o di sicurezza.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/monitor-aria.webp",
+      "icona": "🌬️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Air quality monitor with touchscreen",
+          "descrizione": "Measures CO2, fine dust, temperature and humidity with a touchscreen and sends data to Home Assistant.",
+          "descrizione_completa": "Desktop monitor with CO2, PM2.5 fine dust, temperature and humidity sensors and a touchscreen. Joins WiFi and sends data to Home Assistant or MQTT, no cloud.\nUseful to know when to ventilate home, office and classrooms. An informational tool, not a medical or safety device.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "contapersone-porta",
+      "nome": "Contapersone da porta senza telecamera",
+      "categoria": "aria-sensori",
+      "prezzo_centesimi": 7900,
+      "descrizione": "Conta chi entra e chi esce da una porta con sensori a infrarossi, senza telecamere e senza dati personali.",
+      "descrizione_completa": "Contapersone da porta con sensori a infrarossi su ESP32: conta ingressi e uscite e invia il numero a Home Assistant o MQTT. Non usa telecamere ne' WiFi/Bluetooth dei telefoni, quindi non raccoglie dati personali.\nLa precisione dipende da larghezza della porta e dal passaggio di piu' persone insieme.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/contapersone-porta.webp",
+      "icona": "🚪",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Camera-free door people counter",
+          "descrizione": "Counts who comes in and out of a door with infrared sensors, no cameras and no personal data.",
+          "descrizione_completa": "ESP32 door people counter with infrared sensors: counts entries and exits and sends the figure to Home Assistant or MQTT. It uses no cameras and no phone WiFi/Bluetooth, so it collects no personal data.\nAccuracy depends on door width and people passing together.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "nodo-meshcore",
+      "nome": "Nodo mesh LoRa MeshCore configurato",
+      "categoria": "mesh-lora",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Nodo LoRa con firmware MeshCore gia' impostato per messaggi di testo senza SIM e senza internet.",
+      "descrizione_completa": "Nodo LoRa con firmware MeshCore gia' flashato e configurato: messaggi di testo tra dispositivi vicini senza SIM e senza internet, utile in escursione, in campagna o come rete di emergenza.\nLa portata dipende da antenna, altezza e ostacoli e puo' andare da poche centinaia di metri a molti chilometri con visibilita' libera. Usa solo le frequenze consentite nel tuo paese.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/nodo-meshcore.webp",
+      "icona": "📡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pre-configured MeshCore LoRa mesh node",
+          "descrizione": "LoRa node with MeshCore firmware set up for text messages without SIM or internet.",
+          "descrizione_completa": "LoRa node with MeshCore firmware already flashed and configured: text messages between nearby devices without SIM or internet, handy for hiking, rural areas or as an emergency network.\nRange depends on antenna, height and obstacles and can go from a few hundred metres to many kilometres with a clear line of sight. Use only the frequencies allowed in your country.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tracker-4g-traccar",
+      "nome": "Tracker GPS 4G con server tuo (Traccar)",
+      "categoria": "tracker-4g-bt",
+      "prezzo_centesimi": 6900,
+      "descrizione": "Tracker GPS 4G gia' impostato per inviare la posizione al tuo server Traccar: niente app a pagamento, i dati restano tuoi.",
+      "descrizione_completa": "Tracker GPS 4G configurato per inviare la posizione a un server Traccar, software aperto che puoi ospitare dove preferisci. Nessun canone a noi e nessun vincolo di servizio.\nServe una SIM dati a scelta tua (non inclusa). Includo la guida per installare Traccar. Rispetta la privacy: usa il tracker solo su beni tuoi o con il consenso delle persone interessate.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/tracker-4g-traccar.webp",
+      "icona": "📍",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "4G GPS tracker for your own Traccar server",
+          "descrizione": "4G GPS tracker set up to send location to your own Traccar server: no paid app, your data stays yours.",
+          "descrizione_completa": "4G GPS tracker configured to send its position to a Traccar server, open software you can host anywhere. No fee to us and no service lock-in.\nRequires a data SIM of your choice (not included). A guide to install Traccar is included. Respect privacy: use the tracker only on your own property or with consent of the people concerned.\nShipped configured and tested, with instructions."
         }
       }
     }
