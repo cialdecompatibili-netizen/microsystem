@@ -1242,6 +1242,82 @@
           "descrizione_completa": "4G GPS tracker configured to send its position to a Traccar server, open software you can host anywhere. No fee to us and no service lock-in.\nRequires a data SIM of your choice (not included). A guide to install Traccar is included. Respect privacy: use the tracker only on your own property or with consent of the people concerned.\nShipped configured and tested, with instructions."
         }
       }
+    },
+    {
+      "tipo": "fisico",
+      "id": "campanello-wifi",
+      "nome": "Campanello WiFi con foto, a corrente",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Campanello WiFi su ESP32 con micro camera: quando qualcuno suona ricevi la notifica con la foto sul telefono. Senza cloud e senza abbonamenti.",
+      "descrizione_completa": "Campanello con pulsante, micro camera e ESP32 con firmware aperto gia' configurato. Alla pressione invia una notifica con la foto di chi ha suonato a Home Assistant e al tuo telefono e suona un campanello interno (anche piu' di uno).\nAlimentato a 5 V con trasformatore o cavo gia' presente sulla porta. Nessun cloud, nessun abbonamento: funziona anche senza internet nella tua rete.\nFunzione foto, non videochiamata. Verifica le regole sulla privacy per le riprese verso il suolo pubblico.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/campanello-wifi.webp",
+      "icona": "🔔",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "WiFi doorbell with photo, mains powered",
+          "descrizione": "ESP32 WiFi doorbell with a mini camera: when someone rings you get a phone alert with a photo. No cloud and no subscription.",
+          "descrizione_completa": "Doorbell with a button, mini camera and an ESP32 with open firmware already configured. When pressed it sends a notification with a photo of the visitor to Home Assistant and your phone and sounds an indoor chime (or several).\nPowered at 5 V from a transformer or the cable already at your door. No cloud, no subscription: works on your local network even without internet.\nPhoto feature, not a video call. Check privacy rules for filming public areas.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "campanello-wifi-solare",
+      "nome": "Campanello WiFi con foto, solare a batteria",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 8900,
+      "descrizione": "Come il campanello a corrente ma con piccolo pannello solare e batteria: nessun cavo da portare alla porta.",
+      "descrizione_completa": "Campanello WiFi con foto con batteria ricaricabile e piccolo pannello solare: lo fissi dove vuoi, senza tirare cavi, senza trasformatore.\nStando a riposo consuma pochissimo e si sveglia alla pressione del pulsante. L'autonomia dipende da luce e utilizzo: con poca luce prolungata la batteria puo' scaricarsi, e il campanello ti avvisa col livello di carica. Utile dove il cavo non arriva: cancelli, casolari, dependance.\nNessun cloud, nessun abbonamento. Verifica le regole sulla privacy per le riprese verso il suolo pubblico.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/campanello-wifi-solare.webp",
+      "icona": "☀️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "WiFi doorbell with photo, solar and battery",
+          "descrizione": "Like the mains doorbell but with a small solar panel and battery: no wiring to the door.",
+          "descrizione_completa": "WiFi doorbell with photo, rechargeable battery and a small solar panel: mount it anywhere, no cables and no transformer.\nIt sleeps most of the time and wakes when the button is pressed. Battery life depends on light and use: after long low-light periods the battery can run down, and the doorbell reports its charge level. Handy where cables cannot reach: gates, farmhouses, outbuildings.\nNo cloud, no subscription. Check privacy rules for filming public areas.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "nodo-meshcore-solare",
+      "nome": "Nodo mesh LoRa solare per ripetitore all'aperto",
+      "categoria": "mesh-lora",
+      "prezzo_centesimi": 9900,
+      "descrizione": "Ripetitore LoRa con pannello solare e batteria in custodia stagna: lo metti in alto e lavora da solo, senza prese.",
+      "descrizione_completa": "Nodo ripetitore LoRa (firmware MeshCore o Meshtastic a scelta, gia' configurato) con pannello solare, batteria e custodia stagna per montaggio su palo o tetto.\nCosi' estendi la rete mesh dove non c'e' corrente. L'autonomia dipende da sole e stagione: in inverno o in zone poco soleggiate puo' servire un pannello piu' grande. Usa solo le frequenze consentite nel tuo paese; la portata dipende da altezza e ostacoli.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/nodo-meshcore-solare.webp",
+      "icona": "☀️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Solar LoRa mesh node for outdoor repeater",
+          "descrizione": "LoRa repeater with solar panel and battery in a waterproof case: mount it high and let it run on its own, no mains needed.",
+          "descrizione_completa": "LoRa repeater node (MeshCore or Meshtastic firmware of your choice, pre-configured) with solar panel, battery and a waterproof case for pole or roof mounting.\nExtend your mesh where there is no mains power. Autonomy depends on sun and season: in winter or shady spots a larger panel may be needed. Use only the frequencies allowed in your country; range depends on height and obstacles.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sensori-esterni-solare",
+      "nome": "Stazione sensori esterna solare",
+      "categoria": "zigbee-sensori",
+      "prezzo_centesimi": 7900,
+      "descrizione": "Temperatura, umidita' e pressione all'aperto con pannello solare e batteria: niente cavi in giardino.",
+      "descrizione_completa": "Stazione sensori ESP32 per l'esterno con pannello solare, batteria e schermo anti-sole: invia temperatura, umidita' e pressione a Home Assistant via WiFi ogni pochi minuti.\nUtile in giardino, serra, orto e terrazzo dove non arriva la corrente. Con poca luce prolungata l'intervallo di invio puo' rallentare. Il segnale WiFi deve arrivare fin li'.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "assets/images/prodotti/sensori-esterni-solare.webp",
+      "icona": "☀️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Solar outdoor sensor station",
+          "descrizione": "Outdoor temperature, humidity and pressure with solar panel and battery: no cables in the garden.",
+          "descrizione_completa": "Outdoor ESP32 sensor station with solar panel, battery and a radiation shield: sends temperature, humidity and pressure to Home Assistant over WiFi every few minutes.\nUseful in gardens, greenhouses, allotments and terraces without mains power. In long low-light periods the reporting interval may slow down. WiFi must reach the spot.\nShipped configured and tested, with instructions."
+        }
+      }
     }
   ]
 }
