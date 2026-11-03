@@ -1318,6 +1318,215 @@
           "descrizione_completa": "Outdoor ESP32 sensor station with solar panel, battery and a radiation shield: sends temperature, humidity and pressure to Home Assistant over WiFi every few minutes.\nUseful in gardens, greenhouses, allotments and terraces without mains power. In long low-light periods the reporting interval may slow down. WiFi must reach the spot.\nShipped configured and tested, with instructions."
         }
       }
+    },
+    {
+      "tipo": "fisico",
+      "id": "homevault",
+      "nome": "HomeVault: server privato per foto e file di casa",
+      "categoria": "privacy-rete",
+      "prezzo_centesimi": 44900,
+      "descrizione": "Mini server con SSD da 2 TB e software open source per foto e file gia' installati: l'alternativa privata a Google Foto e Drive, in casa tua.",
+      "descrizione_completa": "Mini PC a basso consumo con SSD da 2 TB e un sistema gia' impostato con Immich per foto e video e Nextcloud per file, calendari e contatti. Colleghi il cavo di rete, accedi dal telefono con la app e carichi le tue foto: restano a casa tua, senza abbonamenti.\nPer l'accesso da fuori casa e' incluso un collegamento VPN privato. Ricordati di fare una copia di sicurezza su un secondo disco: nelle istruzioni ti spieghiamo come. Un solo disco non e' un backup.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "🗄️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "HomeVault: private home server for photos and files",
+          "descrizione": "Mini server with a 2 TB SSD and open-source photo and file software pre-installed: the private alternative to cloud photo and drive services, in your own home.",
+          "descrizione_completa": "Low-power mini PC with a 2 TB SSD and a system already set up with Immich for photos and videos and Nextcloud for files, calendars and contacts. Plug in the network cable, sign in from your phone with the app and upload your photos: they stay in your home, with no subscription.\nA private VPN connection is included for access away from home. Remember to keep a backup on a second drive: the instructions explain how. A single disk is not a backup.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-allarme-ha",
+      "nome": "Kit sistema di avviso per casa con Home Assistant",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 34900,
+      "descrizione": "Box Home Assistant, sensori porta e finestra, sensore di movimento, sirena e tastierino: ti avvisa sul telefono quando qualcosa si apre o si muove.",
+      "descrizione_completa": "Kit pronto con box Home Assistant, sensori Zigbee per porte e finestre, sensore di movimento, sirena e tastierino per inserire e disinserire. Le regole (zone, ritardi di ingresso e uscita, modalita' notte e fuori casa) sono gia' impostate con l'integrazione Alarmo.\nE' un sistema di avviso: ti manda una notifica e fa suonare la sirena, ma non e' un antifurto certificato e non sostituisce un servizio di vigilanza. Funziona in locale, senza cloud e senza abbonamenti; per le notifiche fuori casa serve la connessione internet.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "🚨",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Home alert system kit with Home Assistant",
+          "descrizione": "Home Assistant box, door and window sensors, motion sensor, siren and keypad: it alerts your phone when something opens or moves.",
+          "descrizione_completa": "Ready kit with a Home Assistant box, Zigbee door and window sensors, a motion sensor, a siren and a keypad to arm and disarm. The rules (zones, entry and exit delays, night and away modes) are already set up with the Alarmo integration.\nIt is an alert system: it sends a notification and sounds the siren, but it is not a certified burglar alarm and does not replace a monitoring service. It runs locally, with no cloud and no subscription; alerts away from home need an internet connection.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "hubbox-lorawan",
+      "nome": "HubBox: gateway LoRaWAN pronto con ChirpStack",
+      "categoria": "mesh-lora",
+      "prezzo_centesimi": 29900,
+      "descrizione": "Gateway LoRaWAN su Raspberry Pi con antenna e server ChirpStack gia' configurato: aggiungi i sensori e i dati restano da te.",
+      "descrizione_completa": "Gateway LoRaWAN con Raspberry Pi, scheda concentratore, antenna e server ChirpStack gia' installato e configurato per la banda europea 868 MHz. Aggiungi i tuoi sensori LoRaWAN dal pannello web e i dati arrivano in locale, senza passare per un servizio esterno.\nUsa solo le frequenze e i limiti di trasmissione consentiti nel tuo paese; la portata dipende da altezza dell'antenna e ostacoli. Per l'uso all'aperto serve una custodia adatta.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "📡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "HubBox: ready-to-use LoRaWAN gateway with ChirpStack",
+          "descrizione": "LoRaWAN gateway on Raspberry Pi with antenna and a pre-configured ChirpStack server: add your sensors and the data stays with you.",
+          "descrizione_completa": "LoRaWAN gateway with a Raspberry Pi, concentrator board, antenna and a ChirpStack server already installed and configured for the European 868 MHz band. Add your LoRaWAN sensors from the web panel and the data arrives locally, without going through an outside service.\nUse only the frequencies and transmission limits allowed in your country; range depends on antenna height and obstacles. Outdoor use needs a suitable enclosure.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "box-home-assistant",
+      "nome": "Box Home Assistant pronto all'uso",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 24900,
+      "descrizione": "Mini PC con Home Assistant gia' installato, chiavetta Zigbee e copie di sicurezza automatiche: la base della tua casa smart, senza cloud.",
+      "descrizione_completa": "Mini PC con Home Assistant gia' installato, chiavetta Zigbee collegata e copie di sicurezza automatiche impostate su un secondo supporto. Lo colleghi alla rete e alla corrente e hai la base della tua casa smart, senza cloud del produttore.\nE' il cuore a cui collegare sensori, prese, campanelli e gli altri prodotti del negozio. Se vuoi lo spediamo con alcuni dispositivi gia' abbinati: scrivici.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "🏠",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ready-to-use Home Assistant box",
+          "descrizione": "Mini PC with Home Assistant pre-installed, a Zigbee stick and automatic backups: the base of your smart home, with no cloud.",
+          "descrizione_completa": "Mini PC with Home Assistant pre-installed, a Zigbee stick plugged in and automatic backups set up on a second drive. Connect it to your network and power and you have the base of your smart home, with no manufacturer cloud.\nIt is the hub for sensors, plugs, doorbells and the other products in the shop. We can also ship it with some devices already paired: write to us.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "remotekvm",
+      "nome": "RemoteKVM: controllo remoto di server e PC via rete",
+      "categoria": "privacy-rete",
+      "prezzo_centesimi": 19900,
+      "descrizione": "Scheda con Raspberry Pi che mostra schermo, tastiera e mouse di un server o PC dal browser, anche prima che parta il sistema.",
+      "descrizione_completa": "Scheda con Raspberry Pi che si collega all'uscita video e alla porta USB di un server o PC e ti mostra schermo, tastiera e mouse dal browser, anche prima che parta il sistema operativo: puoi entrare nel BIOS, reinstallare o riavviare da remoto. Basato su software open source.\nUtile per server di casa, piccoli uffici e sistemisti che non vogliono andare di persona. Per l'accesso da fuori rete consigliamo una VPN, che ti spieghiamo come impostare. Funziona con PC e server dotati di uscita HDMI.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "🖥️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "RemoteKVM: remote control of servers and PCs over the network",
+          "descrizione": "Raspberry Pi board that shows the screen, keyboard and mouse of a server or PC in your browser, even before the system boots.",
+          "descrizione_completa": "Raspberry Pi board that plugs into the video output and USB port of a server or PC and shows you its screen, keyboard and mouse in your browser, even before the operating system starts: you can enter the BIOS, reinstall or reboot remotely. Based on open-source software.\nUseful for home servers, small offices and sysadmins who do not want to travel. For access from outside your network we recommend a VPN, and we explain how to set it up. Works with PCs and servers that have an HDMI output.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "irrigazione-smart",
+      "nome": "Controller irrigazione smart a 8 zone con sensore pioggia",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 12900,
+      "descrizione": "Controller per irrigazione a 8 zone, da telefono o Home Assistant, con sensore pioggia che salta l'irrigazione quando non serve.",
+      "descrizione_completa": "Controller per irrigazione con otto uscite a bassa tensione per elettrovalvole standard, gestito da telefono o da Home Assistant, con programmi per zona e sensore pioggia che salta l'irrigazione quando non serve. Firmware aperto, senza cloud e senza abbonamenti.\nSi alimenta con un trasformatore a bassa tensione incluso. Elettrovalvole e tubazioni non incluse.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "💧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Smart 8-zone irrigation controller with rain sensor",
+          "descrizione": "8-zone irrigation controller for phone or Home Assistant, with a rain sensor that skips watering when it is not needed.",
+          "descrizione_completa": "Irrigation controller with eight low-voltage outputs for standard solenoid valves, controlled from your phone or Home Assistant, with per-zone programs and a rain sensor that skips watering when it is not needed. Open firmware, no cloud and no subscription.\nPowered by an included low-voltage transformer. Valves and piping not included.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "irrigazione-smart-solare",
+      "nome": "Controller irrigazione smart a batteria con pannello solare",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 16900,
+      "descrizione": "Controller per irrigazione a 4 zone a batteria con pannello solare: per orti e giardini dove non arriva la corrente.",
+      "descrizione_completa": "Controller per irrigazione a quattro zone con batteria e piccolo pannello solare, per orti, giardini e terreni senza corrente. Funziona con elettrovalvole a impulsi a basso consumo (necessarie per il funzionamento a batteria), si programma da telefono e salta l'irrigazione se piove.\nL'autonomia dipende da sole e stagione: con poca luce prolungata la batteria puo' scaricarsi e il controller ti avvisa col livello di carica. Elettrovalvole non incluse.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "☀️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Smart battery irrigation controller with solar panel",
+          "descrizione": "4-zone battery irrigation controller with a solar panel: for vegetable gardens and gardens where mains power does not reach.",
+          "descrizione_completa": "Four-zone irrigation controller with a battery and a small solar panel, for vegetable gardens, gardens and land without mains power. It works with low-power latching solenoid valves (required for battery operation), is programmed from your phone and skips watering when it rains.\nAutonomy depends on sun and season: after long low-light periods the battery can run down, and the controller reports its charge level. Valves not included.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-emergenza-lora",
+      "nome": "Kit emergenza comunicazione LoRa con power bank solare",
+      "categoria": "mesh-lora",
+      "prezzo_centesimi": 13900,
+      "descrizione": "Nodo LoRa configurato, antenna e power bank solare in borsa: messaggi di testo con altri nodi anche senza rete mobile.",
+      "descrizione_completa": "Kit in borsa con nodo LoRa (firmware Meshtastic o MeshCore a scelta, gia' configurato), antenna, power bank con piccolo pannello solare e cavo. Ti permette di scambiare messaggi di testo con altri nodi vicini anche senza rete mobile e senza internet.\nNon sostituisce i servizi di emergenza (112): la copertura dipende da quanti altri nodi ci sono nella zona, da altezza e ostacoli. Usa solo le frequenze consentite nel tuo paese.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "🎒",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "LoRa emergency communication kit with solar power bank",
+          "descrizione": "Pre-configured LoRa node, antenna and solar power bank in a bag: text messages with other nodes even without a mobile network.",
+          "descrizione_completa": "Kit in a bag with a LoRa node (Meshtastic or MeshCore firmware of your choice, pre-configured), antenna, a power bank with a small solar panel and a cable. It lets you exchange text messages with other nearby nodes even without a mobile network or internet.\nIt does not replace emergency services (112): coverage depends on how many other nodes are in the area, height and obstacles. Use only the frequencies allowed in your country.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "misuratore-consumi",
+      "nome": "Misuratore consumi elettrici a pinza per Home Assistant",
+      "categoria": "zigbee-sensori",
+      "prezzo_centesimi": 7900,
+      "descrizione": "Pinza amperometrica non invasiva con ESPHome: vedi in Home Assistant quanta energia consuma la casa o un singolo carico.",
+      "descrizione_completa": "Misuratore con pinza amperometrica non invasiva: si chiude intorno al cavo senza tagliarlo e ti mostra in Home Assistant quanta energia consuma la casa o un singolo carico. Firmware ESPHome gia' caricato.\nLa misura e' indicativa e non sostituisce il contatore. Il montaggio nel quadro elettrico va fatto da una persona esperta: se non lo sei, fallo fare a un elettricista.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "⚡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Clamp-on energy meter for Home Assistant",
+          "descrizione": "Non-invasive current clamp with ESPHome: see in Home Assistant how much energy your home or a single load uses.",
+          "descrizione_completa": "Meter with a non-invasive current clamp: it closes around the cable without cutting it and shows in Home Assistant how much energy your home or a single load uses. ESPHome firmware already loaded.\nThe reading is indicative and does not replace your utility meter. Installation in the electrical panel must be done by a qualified person: if you are not one, have an electrician do it.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "kit-luci-wled",
+      "nome": "Kit luci LED con controller WLED",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 6900,
+      "descrizione": "Controller ESP32 con WLED, alimentatore e striscia LED da 5 metri: colori ed effetti dal telefono, ideale per luci di Natale.",
+      "descrizione_completa": "Kit con controller ESP32 con firmware WLED, alimentatore e striscia LED indirizzabile da 5 metri. Colori, effetti e programmi dal telefono o da Home Assistant, ideale per luci di Natale, mensole, vetrine e scrivanie. Nessun cloud.\nPuoi aggiungere altre strisce nei limiti della potenza dell'alimentatore. Per uso interno: all'esterno serve una protezione adeguata.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "💡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "LED light kit with WLED controller",
+          "descrizione": "ESP32 controller with WLED, power supply and a 5-metre LED strip: colours and effects from your phone, ideal for Christmas lights.",
+          "descrizione_completa": "Kit with an ESP32 controller running WLED firmware, a power supply and a 5-metre addressable LED strip. Colours, effects and schedules from your phone or Home Assistant, ideal for Christmas lights, shelves, shop windows and desks. No cloud.\nYou can add more strips within the power supply's limits. For indoor use: outdoors it needs proper protection.\nShipped configured and tested, with instructions."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "assistente-vocale-locale",
+      "nome": "Assistente vocale locale per Home Assistant",
+      "categoria": "smart-home",
+      "prezzo_centesimi": 8900,
+      "descrizione": "Piccolo assistente vocale con microfono e altoparlante per Home Assistant: comandi a voce per luci, prese e scene, senza cloud.",
+      "descrizione_completa": "Piccolo assistente vocale con microfono, altoparlante e firmware gia' configurato per Home Assistant: dai comandi a voce per luci, prese e scene. Il riconoscimento puo' girare sulla tua rete, senza mandare l'audio a servizi esterni.\nRichiede un Home Assistant gia' attivo (ad esempio il nostro box). La resa in italiano dipende dai modelli di riconoscimento scelti e dall'hardware su cui girano.\nSpedito configurato e testato, con istruzioni in italiano.",
+      "immagine": "",
+      "icona": "🎙️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Local voice assistant for Home Assistant",
+          "descrizione": "Small voice assistant with a microphone and speaker for Home Assistant: voice commands for lights, plugs and scenes, with no cloud.",
+          "descrizione_completa": "Small voice assistant with a microphone, speaker and firmware already configured for Home Assistant: give voice commands for lights, plugs and scenes. Recognition can run on your own network, without sending audio to outside services.\nRequires a working Home Assistant (for example our box). Results in your language depend on the recognition models chosen and the hardware they run on.\nShipped configured and tested, with instructions."
+        }
+      }
     }
   ]
 }
