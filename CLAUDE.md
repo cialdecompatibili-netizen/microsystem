@@ -107,3 +107,61 @@ Tutto da Desktop Commander sul PC di Mirco, con Python. Il connettore GitHub non
 - Idee categorie dal mercato (ricerca 31/10/2026): nodi e schede Meshtastic (Heltec V3/V4, LILYGO T-Beam), ripetitori solari, kit modulari RAK WisBlock, tracker GPS, comunicatori portatili, kit con Raspberry Pi.
 
 - 31/10/2026 FOTO PRODOTTI: prodotti commerciali col marchio MICROSYSTEM (wordmark pulito sul case, grigio scuro opaco + accento blu #0b6cf0, sfondo bianco). Mai marche altrui, etichette con seriali/IMEI/frequenze (le foto di Gemini le inventano): usare --extra come in automation/aggiungi_prodotti.py e GUARDARE sempre la foto. Elenco prodotti: python automation/aggiungi_prodotti.py elenco.json --foto --push.
+
+
+## Listino prodotti inseriti il 3/11/2026 (11 prodotti, SENZA foto, prezzi = stime da correggere)
+Inseriti con `aggiungi_prodotti.py` da `cercareprodotti\progetti\microsystem\elenco4.json` (generato da `gen_elenco4.py` nella stessa cartella). Senza foto `immagine` e' vuota nel catalogo: la scheda mostra l'icona (vedi `_layouts/negozio-prodotto.html`). Quando si fanno le foto: rilanciare con `--foto` solo per questi id e rimettere `immagine: assets/images/prodotti/<id>.webp`. URL = https://cialdecompatibili-netizen.github.io/microsystem/negozio/<id>/
+
+| Id | Prodotto | Categoria | Prezzo |
+|---|---|---|---|
+| homevault | HomeVault: server privato per foto e file (Immich + Nextcloud, SSD 2 TB) | privacy-rete | 449 euro |
+| kit-allarme-ha | Kit sistema di avviso per casa con Home Assistant (NON antifurto certificato) | smart-home | 349 euro |
+| hubbox-lorawan | HubBox: gateway LoRaWAN con ChirpStack (EU868) | mesh-lora | 299 euro |
+| box-home-assistant | Box Home Assistant pronto all'uso | smart-home | 249 euro |
+| remotekvm | RemoteKVM: controllo remoto server/PC (nome nostro, non PiKVM) | privacy-rete | 199 euro |
+| irrigazione-smart-solare | Controller irrigazione 4 zone a batteria con pannello solare | smart-home | 169 euro |
+| kit-emergenza-lora | Kit emergenza comunicazione LoRa con power bank solare (non sostituisce il 112) | mesh-lora | 139 euro |
+| irrigazione-smart | Controller irrigazione 8 zone con sensore pioggia | smart-home | 129 euro |
+| assistente-vocale-locale | Assistente vocale locale per Home Assistant | smart-home | 89 euro |
+| misuratore-consumi | Misuratore consumi a pinza per Home Assistant (montaggio nel quadro da persona esperta) | zigbee-sensori | 79 euro |
+| kit-luci-wled | Kit luci LED con controller WLED | smart-home | 69 euro |
+
+Totale shop dopo l'inserimento: 67 prodotti.
+
+## PROSSIMA SESSIONE: 30 prodotti da sviluppare (solo nome custom + repo da cui prendere le info)
+Ricerca del 3/11/2026, repo verificate esistenti col connettore GitHub. Ordine = stima di profitto per vendita. Per ogni prodotto, nella prossima sessione: leggere il README della repo, scrivere testi IT+EN (senza numeri inventati), prezzo, categoria, poi `gen_elenco5.py` + `aggiungi_prodotti.py`. Regola: versione a corrente e solare/batteria dove ha senso.
+
+| # | Nome custom | Prodotto | Repo da cui prendere le info |
+|---|---|---|---|
+| 1 | GuardWall | Firewall per piccoli uffici su mini PC con OPNsense | https://github.com/opnsense/core |
+| 2 | ReefControl | Controller acquario marino con Raspberry | https://github.com/reef-pi/reef-pi |
+| 3 | StorageBox | NAS casalingo a 2 dischi | https://github.com/openmediavault/openmediavault |
+| 4 | PriceTag | Etichette prezzi elettroniche e-paper per negozi | https://github.com/OpenEPaperLink/OpenEPaperLink |
+| 5 | ScreenPoint | Digital signage per negozi e studi | https://github.com/Screenly/Anthias |
+| 6 | SolarLink | Gateway inverter fotovoltaico verso Home Assistant (Modbus) | https://github.com/wills106/homeassistant-solax-modbus |
+| 7 | HeatLink | Termostato OpenTherm per caldaia | https://github.com/ihormelnyk/opentherm_library |
+| 8 | DualLink 4G | Router doppia SIM con failover | https://github.com/openwrt/packages (pacchetto mwan3) |
+| 9 | CineBox | Mediacenter pronto | https://github.com/jellyfin/jellyfin |
+| 10 | HiFiStream | Streamer audio Hi-Fi con Raspberry | https://github.com/moode-player/moode |
+| 11 | MeterEye | Lettore contatore acqua/gas/luce con camera ESP32 | https://github.com/jomjol/AI-on-the-edge-device |
+| 12 | OpenCam | Telecamera IP con firmware aperto | https://github.com/OpenIPC/firmware |
+| 13 | NetScope | Sonda di rete per vedere il traffico | https://github.com/ntop/ntopng |
+| 14 | PowerGuard | Mini UPS per router e NAS con spegnimento automatico | https://github.com/networkupstools/nut |
+| 15 | RoomSync | Kit audio multiroom sincronizzato | https://github.com/snapcast/snapcast |
+| 16 | ShipTrack | Ricevitore AIS per barche e porti | https://github.com/jvde-github/AIS-catcher |
+| 17 | SkyWatch | Kit ricezione satelliti meteo | https://github.com/SatDump/SatDump |
+| 18 | ThreadHub | Border router Thread/Matter | https://github.com/openthread/ot-br-posix |
+| 19 | PrintBox | Box con camera per stampanti 3D | https://github.com/OctoPrint/OctoPrint |
+| 20 | PingBox | Box monitoraggio uptime siti e server | https://github.com/louislam/uptime-kuma |
+| 21 | WeatherPro | Stazione meteo completa con anemometro (diversa dalla e-paper) | https://github.com/weewx/weewx |
+| 22 | AccessTag | Controllo accessi con tessere RFID | https://github.com/esphome/esphome |
+| 23 | FloodStop | Kit antiallagamento con sensori perdite ed elettrovalvola | https://github.com/esphome/esphome |
+| 24 | SwitchBox | Modulo relè WiFi da incasso (installazione da elettricista) | https://github.com/arendst/Tasmota |
+| 25 | ZWaveStick | Chiavetta Z-Wave pronta per Home Assistant | https://github.com/zwave-js/zwave-js-ui |
+| 26 | KnowledgeBox | Wikipedia e biblioteca offline con hotspot WiFi | https://github.com/kiwix/kiwix-tools |
+| 27 | PixelClock | Orologio smart a matrice LED | https://github.com/Blueforcer/awtrix-ng |
+| 28 | MacroPad | Macropad meccanico programmabile (da saldare) | https://github.com/qmk/qmk_firmware |
+| 29 | RoomTrack | Nodi di presenza per stanza via Bluetooth | https://github.com/ESPresense/ESPresense |
+| 30 | AirOutdoor | Centralina polveri sottili da esterno | https://github.com/opendata-stuttgart/sensors-software |
+
+Note ricerca: AWTRIX 3 (Blueforcer/awtrix3) e' DISMESSO, usare awtrix-ng. Scartate perche' non trovate sul connettore: MMDVMHost (radioamatori), OpenWebRX, esp-rfid, its-a-plane-python. Le stelle non si leggono dal connettore: da controllare sul sito quando serve. HeatLink: ultima modifica della libreria nel 2024, verificare che sia ancora valida. Attenzione legale: relè da incasso, termostato caldaia, gateway inverter e misure in quadro toccano impianti a 230 V o gas: sempre "montaggio da persona esperta" nei testi.
